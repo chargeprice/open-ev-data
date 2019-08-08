@@ -17,11 +17,11 @@ At the moment mostly charging related data is available. Feel free to add more d
 * Release Year: Mainly to distinquish models with the same name.
 * Variant: Bigger battery, optional faster on-board charger etc.
 * Usable Battery Size: in kWh
-* AC Charger
+* AC Charger: Details about the on-board charger.
   * Usable Phases: No. of usable phases for AC charging. Allowed values: 1,2,3
   * Ports: Allowed values: `type1`, `type2`
   * Max Power: in kW
-  * Power per Charging Point:
+  * Power per Charging Point: Charging power at common charging points. Key and Value in kW.
 * DC Charger: `null` if the car doesn't support DC charging
   * Ports: Allowed values: `ccs`, `chademo`, `tesla_suc`, `tesla_ccs`
   * Max Power: in kW
