@@ -282,15 +282,15 @@
         "ports": [
           "chademo"
         ],
-        "max_power": 3.6,
+        "max_power": 50.0,
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 3
+            "power": 47
           },
           {
             "percentage": 75,
-            "power": 3.6
+            "power": 50.0
           },
           {
             "percentage": 100,
@@ -350,15 +350,15 @@
         "ports": [
           "ccs"
         ],
-        "max_power": 6.6,
+        "max_power": 50.0,
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 6
+            "power": 47
           },
           {
             "percentage": 75,
-            "power": 6.6
+            "power": 50.0
           },
           {
             "percentage": 100,
@@ -418,15 +418,15 @@
         "ports": [
           "ccs"
         ],
-        "max_power": 7.2,
+        "max_power": 50.0,
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 6
+            "power": 47
           },
           {
             "percentage": 75,
-            "power": 7.2
+            "power": 50.0
           },
           {
             "percentage": 100,
@@ -642,15 +642,15 @@
         "ports": [
           "ccs"
         ],
-        "max_power": 7.2,
+        "max_power": 50.0,
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 6
+            "power": 47
           },
           {
             "percentage": 75,
-            "power": 7.2
+            "power": 50.0
           },
           {
             "percentage": 100,
@@ -686,15 +686,15 @@
         "ports": [
           "chademo"
         ],
-        "max_power": 6.6,
+        "max_power": 50.0,
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 6
+            "power": 47
           },
           {
             "percentage": 75,
-            "power": 6.6
+            "power": 50.0
           },
           {
             "percentage": 100,
@@ -730,15 +730,15 @@
         "ports": [
           "chademo"
         ],
-        "max_power": 6.6,
+        "max_power": 50.0,
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 6
+            "power": 47
           },
           {
             "percentage": 75,
-            "power": 6.6
+            "power": 50.0
           },
           {
             "percentage": 100,
@@ -974,15 +974,15 @@
         "ports": [
           "chademo"
         ],
-        "max_power": 3.6,
+        "max_power": 50.0,
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 3
+            "power": 47
           },
           {
             "percentage": 75,
-            "power": 3.6
+            "power": 50.0
           },
           {
             "percentage": 100,
@@ -1002,7 +1002,7 @@
       "ac_charger": {
         "usable_phases": 1,
         "ports": [
-
+          "type1"
         ],
         "max_power": 3.6,
         "power_per_charging_point": {
@@ -1018,15 +1018,15 @@
         "ports": [
           "chademo"
         ],
-        "max_power": 3.6,
+        "max_power": 46.0,
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 3
+            "power": 43
           },
           {
             "percentage": 75,
-            "power": 3.6
+            "power": 46.0
           },
           {
             "percentage": 100,
@@ -1062,15 +1062,15 @@
         "ports": [
           "chademo"
         ],
-        "max_power": 6.6,
+        "max_power": 46.0,
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 6
+            "power": 43
           },
           {
             "percentage": 75,
-            "power": 6.6
+            "power": 46.0
           },
           {
             "percentage": 100,
@@ -1106,15 +1106,15 @@
         "ports": [
           "chademo"
         ],
-        "max_power": 6.6,
+        "max_power": 46.0,
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 6
+            "power": 43
           },
           {
             "percentage": 75,
-            "power": 6.6
+            "power": 46.0
           },
           {
             "percentage": 100,
@@ -1382,15 +1382,15 @@
         "ports": [
           "chademo"
         ],
-        "max_power": 6.6,
+        "max_power": 100.0,
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 6
+            "power": 95
           },
           {
             "percentage": 75,
-            "power": 6.6
+            "power": 100.0
           },
           {
             "percentage": 100,
@@ -1494,15 +1494,15 @@
         "ports": [
           "chademo"
         ],
-        "max_power": 3.6,
+        "max_power": 50.0,
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 3
+            "power": 47
           },
           {
             "percentage": 75,
-            "power": 3.6
+            "power": 50.0
           },
           {
             "percentage": 100,
@@ -2194,7 +2194,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2019-08-08T19:11:54Z",
+    "updated_at": "2019-08-11T18:53:01Z",
     "overall_count": 55
   }
 }

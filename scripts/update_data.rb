@@ -59,7 +59,7 @@ def dc_charger(row)
   return if ports.empty?
 
   curve = charging_curve(row)
-  max_power = to_f(row[7])
+  max_power = to_f(row[8])
   {
     ports: ports,
     max_power: curve ? curve.max_by { |v| v[:power] }[:power] : max_power,

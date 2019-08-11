@@ -30,7 +30,15 @@ At the moment mostly charging related data is available. Feel free to add more d
     * power: in kW
   * Is Default Charging Curve: `true` if the charging curve is based on the default curve instead of real measured data.
 
-## Update the Data
+## Updating the Data
+
+### For non-developers (or lazy developers)
+
+Feel free to add change requests via comments to the base dataset: 
+
+https://docs.google.com/spreadsheets/d/1jT9O6YnrRCtY5jjKDL8-3GN5DzCuB64gAi1aL3-I3Ts
+
+### For developers
 
 1. Request write access to: https://docs.google.com/spreadsheets/d/1jT9O6YnrRCtY5jjKDL8-3GN5DzCuB64gAi1aL3-I3Ts/edit (or make a copy)
 2. Add your changes
