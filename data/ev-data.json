@@ -397,7 +397,7 @@
       "brand": "Hyundai",
       "model": "Kona",
       "release_year": 2018,
-      "variant": "",
+      "variant": "39 kWh",
       "usable_battery_size": 39.0,
       "ac_charger": {
         "usable_phases": 1,
@@ -493,7 +493,7 @@
       "brand": "Hyundai",
       "model": "Kona",
       "release_year": 2018,
-      "variant": "",
+      "variant": "64 kWh",
       "usable_battery_size": 64.0,
       "ac_charger": {
         "usable_phases": 1,
@@ -620,7 +620,7 @@
       "id": "66cb7bea-24b7-458f-ae3e-11d4a852568b",
       "brand": "Kia",
       "model": "e-Niro",
-      "release_year": null,
+      "release_year": 2018,
       "variant": "39 kWh",
       "usable_battery_size": 39.0,
       "ac_charger": {
@@ -670,7 +670,7 @@
       "ac_charger": {
         "usable_phases": 1,
         "ports": [
-
+          "type2"
         ],
         "max_power": 6.6,
         "power_per_charging_point": {
@@ -714,7 +714,7 @@
       "ac_charger": {
         "usable_phases": 1,
         "ports": [
-
+          "type2"
         ],
         "max_power": 6.6,
         "power_per_charging_point": {
@@ -752,13 +752,13 @@
       "id": "58661a4c-e1f9-4dc2-8d09-3bb42be62554",
       "brand": "Kia",
       "model": "e-Soul",
-      "release_year": null,
+      "release_year": 2019,
       "variant": "39 kWh",
       "usable_battery_size": 39.0,
       "ac_charger": {
         "usable_phases": 1,
         "ports": [
-
+          "type2"
         ],
         "max_power": 7.2,
         "power_per_charging_point": {
@@ -776,7 +776,7 @@
       "id": "0f7eae0b-43be-48f8-b4a0-1a8266fd07a9",
       "brand": "Kia",
       "model": "e-Niro",
-      "release_year": null,
+      "release_year": 2018,
       "variant": "64 kWh",
       "usable_battery_size": 64.0,
       "ac_charger": {
@@ -852,13 +852,13 @@
       "id": "3c933da2-1fa1-4094-825a-a181610dbfd0",
       "brand": "Kia",
       "model": "e-Soul",
-      "release_year": null,
+      "release_year": 2019,
       "variant": "64 kWh",
       "usable_battery_size": 64.0,
       "ac_charger": {
         "usable_phases": 1,
         "ports": [
-
+          "type2"
         ],
         "max_power": 7.2,
         "power_per_charging_point": {
@@ -1041,7 +1041,7 @@
       "brand": "Nissan",
       "model": "e-NV 200",
       "release_year": null,
-      "variant": "24 kWh 6,6 kW",
+      "variant": "24 kWh 6,6 kW-AC",
       "usable_battery_size": 24.0,
       "ac_charger": {
         "usable_phases": 1,
@@ -1173,7 +1173,7 @@
       "brand": "Nissan",
       "model": "Leaf",
       "release_year": 2011,
-      "variant": "24 kWh 6,6 kW",
+      "variant": "24 kWh 6,6 kW-AC",
       "usable_battery_size": 24.0,
       "ac_charger": {
         "usable_phases": 1,
@@ -1265,7 +1265,7 @@
       "brand": "Nissan",
       "model": "Leaf",
       "release_year": 2015,
-      "variant": "30 kWh 6,6 kW",
+      "variant": "30 kWh 6,6 kW-AC",
       "usable_battery_size": 30.0,
       "ac_charger": {
         "usable_phases": 1,
@@ -1661,7 +1661,7 @@
       "brand": "smart",
       "model": "fortwo ED",
       "release_year": null,
-      "variant": "",
+      "variant": "22 kW-AC",
       "usable_battery_size": 17.6,
       "ac_charger": {
         "usable_phases": 3,
@@ -1709,7 +1709,7 @@
       "brand": "smart",
       "model": "fortwo EQ",
       "release_year": null,
-      "variant": "",
+      "variant": "22 kW-AC",
       "usable_battery_size": 17.6,
       "ac_charger": {
         "usable_phases": 3,
@@ -1757,7 +1757,7 @@
       "brand": "smart",
       "model": "forfour EQ",
       "release_year": null,
-      "variant": "",
+      "variant": "22 kW-AC",
       "usable_battery_size": 17.6,
       "ac_charger": {
         "usable_phases": 3,
@@ -2194,7 +2194,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2019-08-11T18:53:01Z",
+    "updated_at": "2019-09-02T16:24:46Z",
     "overall_count": 55
   }
 }
