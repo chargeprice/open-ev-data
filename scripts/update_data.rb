@@ -55,7 +55,7 @@ def ac_charger(row)
 end
 
 def dc_charger(row)
-  ports = [2, 3, 4].map { |idx| fetch_port(row, idx) }.compact
+  ports = [2, 3, 4, 5].map { |idx| fetch_port(row, idx) }.compact
   return if ports.empty?
 
   curve = charging_curve(row)

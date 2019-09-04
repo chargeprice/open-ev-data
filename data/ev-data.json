@@ -1800,7 +1800,8 @@
       },
       "dc_charger": {
         "ports": [
-          "ccs"
+          "ccs",
+          "tesla_ccs"
         ],
         "max_power": 149,
         "charging_curve": [
@@ -1848,7 +1849,8 @@
       },
       "dc_charger": {
         "ports": [
-          "ccs"
+          "ccs",
+          "tesla_ccs"
         ],
         "max_power": 149,
         "charging_curve": [
@@ -2194,7 +2196,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2019-09-04T11:36:39Z",
+    "updated_at": "2019-09-04T11:54:42Z",
     "overall_count": 55
   }
 }
