@@ -1922,7 +1922,7 @@
     },
     {
       "id": "355eadbb-0c97-4a66-993d-8fdc61a77ef5",
-      "brand": "Tesla ",
+      "brand": "Tesla",
       "model": "Model X",
       "release_year": 2015,
       "variant": "",
@@ -2194,7 +2194,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2019-09-02T16:24:46Z",
+    "updated_at": "2019-09-04T11:36:39Z",
     "overall_count": 55
   }
 }
