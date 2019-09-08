@@ -8,6 +8,7 @@ Dotenv.load('.env')
 FILE_NAME = '../data/ev-data.json'.freeze
 PORT_NAME = %i[type1 type2 ccs chademo tesla_suc tesla_ccs].freeze
 PORT_START_COLUMN = 9
+MAX_AC_POWER_IDX = 7
 
 def csv_to_json_file
   response = google_service.get_spreadsheet_values(sheet_id, 'Cars')
@@ -85,8 +86,7 @@ def charging_curve(row) # rubocop:disable Metrics/MethodLength
 end
 
 def default_charging_curve(max_power, row)
-  max_ac_power = to_f(row[6])
-
+  max_ac_power = to_f(row[MAX_AC_POWER_IDX])
   [
     { percentage: 0, power: (max_power * 0.95).to_i },
     { percentage: 75, power: max_power },
@@ -99,7 +99,7 @@ def fetch_port(row, column)
 end
 
 def power_per_charging_point(row)
-  max_power = to_f(row[7])
+  max_power = to_f(row[MAX_AC_POWER_IDX])
   max_phases = to_i(row[6])
   {
     2.3 => [max_power, 2.3].min,

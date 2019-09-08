@@ -294,7 +294,7 @@
           },
           {
             "percentage": 100,
-            "power": 1.0
+            "power": 3.6
           }
         ],
         "is_default_charging_curve": true
@@ -362,7 +362,7 @@
           },
           {
             "percentage": 100,
-            "power": 1.0
+            "power": 6.6
           }
         ],
         "is_default_charging_curve": true
@@ -430,7 +430,7 @@
           },
           {
             "percentage": 100,
-            "power": 1.0
+            "power": 7.2
           }
         ],
         "is_default_charging_curve": true
@@ -654,7 +654,7 @@
           },
           {
             "percentage": 100,
-            "power": 1.0
+            "power": 7.2
           }
         ],
         "is_default_charging_curve": true
@@ -698,7 +698,7 @@
           },
           {
             "percentage": 100,
-            "power": 1.0
+            "power": 6.6
           }
         ],
         "is_default_charging_curve": true
@@ -742,7 +742,7 @@
           },
           {
             "percentage": 100,
-            "power": 1.0
+            "power": 6.6
           }
         ],
         "is_default_charging_curve": true
@@ -986,7 +986,7 @@
           },
           {
             "percentage": 100,
-            "power": 1.0
+            "power": 3.6
           }
         ],
         "is_default_charging_curve": true
@@ -1030,7 +1030,7 @@
           },
           {
             "percentage": 100,
-            "power": 1.0
+            "power": 3.6
           }
         ],
         "is_default_charging_curve": true
@@ -1074,7 +1074,7 @@
           },
           {
             "percentage": 100,
-            "power": 1.0
+            "power": 6.6
           }
         ],
         "is_default_charging_curve": true
@@ -1118,7 +1118,7 @@
           },
           {
             "percentage": 100,
-            "power": 1.0
+            "power": 6.6
           }
         ],
         "is_default_charging_curve": true
@@ -1394,7 +1394,7 @@
           },
           {
             "percentage": 100,
-            "power": 1.0
+            "power": 6.6
           }
         ],
         "is_default_charging_curve": true
@@ -1506,7 +1506,7 @@
           },
           {
             "percentage": 100,
-            "power": 1.0
+            "power": 3.6
           }
         ],
         "is_default_charging_curve": true
@@ -2193,10 +2193,54 @@
         }
       },
       "dc_charger": null
+    },
+    {
+      "id": "1847e3aa-750c-4b12-a80a-56e792b3aadb",
+      "brand": "Mitsubishi",
+      "model": "Outlander PHEV",
+      "release_year": 2018,
+      "variant": "",
+      "usable_battery_size": 11.0,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type1"
+        ],
+        "max_power": 3.7,
+        "power_per_charging_point": {
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 3.7,
+          "11": 3.7,
+          "22": 3.7,
+          "43": 3.7
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "chademo"
+        ],
+        "max_power": 22.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 20
+          },
+          {
+            "percentage": 75,
+            "power": 22.0
+          },
+          {
+            "percentage": 100,
+            "power": 3.7
+          }
+        ],
+        "is_default_charging_curve": true
+      }
     }
   ],
   "meta": {
-    "updated_at": "2019-09-04T11:54:42Z",
-    "overall_count": 55
+    "updated_at": "2019-09-08T17:30:05Z",
+    "overall_count": 56
   }
 }
