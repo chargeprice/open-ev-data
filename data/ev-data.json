@@ -1596,14 +1596,14 @@
         "ports": [
           "type2"
         ],
-        "max_power": 43.0,
+        "max_power": 30.0,
         "power_per_charging_point": {
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4,
           "11": 11.100000000000001,
           "22": 22.200000000000003,
-          "43": 43.0
+          "43": 30.0
         }
       },
       "dc_charger": null
@@ -1875,12 +1875,60 @@
       }
     },
     {
-      "id": "b5aa307e-a6b9-46e7-939e-2dd525870c13",
+      "id": "80e7ef22-27f8-4e93-8c86-7a6a0a227e5d",
       "brand": "Tesla",
       "model": "Model S",
       "release_year": null,
-      "variant": "LR",
-      "usable_battery_size": 95.0,
+      "variant": "70",
+      "usable_battery_size": 67.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "tesla_suc"
+        ],
+        "max_power": 140,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 125
+          },
+          {
+            "percentage": 43,
+            "power": 140
+          },
+          {
+            "percentage": 80,
+            "power": 37
+          },
+          {
+            "percentage": 100,
+            "power": 12
+          }
+        ],
+        "is_default_charging_curve": false
+      }
+    },
+    {
+      "id": "ed3fe177-d852-49bd-84ca-8ecd8d7ec3b1",
+      "brand": "Tesla",
+      "model": "Model S",
+      "release_year": null,
+      "variant": "70, 22 kW-AC",
+      "usable_battery_size": 67.0,
       "ac_charger": {
         "usable_phases": 3,
         "ports": [
@@ -1894,6 +1942,150 @@
           "11": 11.100000000000001,
           "22": 22.0,
           "43": 22.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "tesla_suc"
+        ],
+        "max_power": 140,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 125
+          },
+          {
+            "percentage": 43,
+            "power": 140
+          },
+          {
+            "percentage": 80,
+            "power": 37
+          },
+          {
+            "percentage": 100,
+            "power": 12
+          }
+        ],
+        "is_default_charging_curve": false
+      }
+    },
+    {
+      "id": "0a663bbf-3b87-4e7a-bd7a-3e9c39961a2b",
+      "brand": "Tesla",
+      "model": "Model S",
+      "release_year": null,
+      "variant": "85",
+      "usable_battery_size": 76.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "tesla_suc"
+        ],
+        "max_power": 140,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 125
+          },
+          {
+            "percentage": 43,
+            "power": 140
+          },
+          {
+            "percentage": 80,
+            "power": 37
+          },
+          {
+            "percentage": 100,
+            "power": 12
+          }
+        ],
+        "is_default_charging_curve": false
+      }
+    },
+    {
+      "id": "32922583-e434-4ed2-afc1-4d8fde67aeda",
+      "brand": "Tesla",
+      "model": "Model S",
+      "release_year": null,
+      "variant": "90",
+      "usable_battery_size": 81.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 16.5,
+        "power_per_charging_point": {
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.100000000000001,
+          "22": 16.5,
+          "43": 16.5
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "tesla_suc"
+        ],
+        "max_power": 140,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 125
+          },
+          {
+            "percentage": 43,
+            "power": 140
+          },
+          {
+            "percentage": 80,
+            "power": 37
+          },
+          {
+            "percentage": 100,
+            "power": 12
+          }
+        ],
+        "is_default_charging_curve": false
+      }
+    },
+    {
+      "id": "b5aa307e-a6b9-46e7-939e-2dd525870c13",
+      "brand": "Tesla",
+      "model": "Model S",
+      "release_year": null,
+      "variant": "100",
+      "usable_battery_size": 95.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 16.5,
+        "power_per_charging_point": {
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.100000000000001,
+          "22": 16.5,
+          "43": 16.5
         }
       },
       "dc_charger": {
@@ -2240,7 +2432,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2019-09-08T17:30:05Z",
-    "overall_count": 56
+    "updated_at": "2019-09-17T07:21:25Z",
+    "overall_count": 60
   }
 }
