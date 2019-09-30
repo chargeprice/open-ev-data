@@ -102,10 +102,12 @@ def power_per_charging_point(row)
   max_power = to_f(row[MAX_AC_POWER_IDX])
   max_phases = to_i(row[6])
   {
+    2.0 => [max_power, 2.0].min,
     2.3 => [max_power, 2.3].min,
     3.7 => [max_power, 3.7].min,
     7.4 => [max_power, 7.4].min,
     11 => [max_power, max_phases * 3.7].min,
+    16 => [max_power, max_phases * 5.4].min,
     22 => [max_power, max_phases * 7.4].min,
     43 => max_power > 22 ? max_power : [max_power, max_phases * 7.4].min
   }
