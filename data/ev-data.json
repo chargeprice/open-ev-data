@@ -2549,10 +2549,36 @@
         ],
         "is_default_charging_curve": true
       }
+    },
+    {
+      "id": "15023eb9-eba6-436e-ad98-2086f1cb31c4",
+      "brand": "Volkswagen",
+      "model": "Golf GTE",
+      "release_year": 2017,
+      "variant": "",
+      "usable_battery_size": 8.7,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.7,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 3.7,
+          "11": 3.7,
+          "16": 3.7,
+          "22": 3.7,
+          "43": 3.7
+        }
+      },
+      "dc_charger": null
     }
   ],
   "meta": {
-    "updated_at": "2019-09-30T18:36:27Z",
-    "overall_count": 60
+    "updated_at": "2019-10-02T17:32:20Z",
+    "overall_count": 61
   }
 }
