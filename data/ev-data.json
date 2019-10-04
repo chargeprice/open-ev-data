@@ -804,7 +804,27 @@
           "43": 7.2
         }
       },
-      "dc_charger": null
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 50.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 47
+          },
+          {
+            "percentage": 75,
+            "power": 50.0
+          },
+          {
+            "percentage": 100,
+            "power": 7.2
+          }
+        ],
+        "is_default_charging_curve": true
+      }
     },
     {
       "id": "0f7eae0b-43be-48f8-b4a0-1a8266fd07a9",
@@ -908,7 +928,59 @@
           "43": 7.2
         }
       },
-      "dc_charger": null
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 77,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 70
+          },
+          {
+            "percentage": 40,
+            "power": 77
+          },
+          {
+            "percentage": 42,
+            "power": 70
+          },
+          {
+            "percentage": 53,
+            "power": 71
+          },
+          {
+            "percentage": 55,
+            "power": 57
+          },
+          {
+            "percentage": 71,
+            "power": 58
+          },
+          {
+            "percentage": 72,
+            "power": 38
+          },
+          {
+            "percentage": 76,
+            "power": 38
+          },
+          {
+            "percentage": 78,
+            "power": 25
+          },
+          {
+            "percentage": 88,
+            "power": 25
+          },
+          {
+            "percentage": 100,
+            "power": 8
+          }
+        ],
+        "is_default_charging_curve": false
+      }
     },
     {
       "id": "5335d545-cfeb-4bca-bb11-cf0966f1b5ca",
@@ -1683,6 +1755,52 @@
         }
       },
       "dc_charger": null
+    },
+    {
+      "id": "de3a8751-00c9-46d1-9e7a-ad830835c6a7",
+      "brand": "Renault",
+      "model": "Zoe",
+      "release_year": 2019,
+      "variant": "ZE50",
+      "usable_battery_size": 52.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 22.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.100000000000001,
+          "16": 16.200000000000003,
+          "22": 22.0,
+          "43": 22.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 45.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 42
+          },
+          {
+            "percentage": 75,
+            "power": 45.0
+          },
+          {
+            "percentage": 100,
+            "power": 22.0
+          }
+        ],
+        "is_default_charging_curve": true
+      }
     },
     {
       "id": "1c13fba9-2c09-4be1-b5c6-aecd2b253afb",
@@ -2578,7 +2696,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2019-10-02T17:32:20Z",
-    "overall_count": 61
+    "updated_at": "2019-10-04T15:03:30Z",
+    "overall_count": 62
   }
 }
