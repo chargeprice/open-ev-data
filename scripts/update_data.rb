@@ -95,7 +95,7 @@ def default_charging_curve(max_power, row)
 end
 
 def fetch_port(row, column)
-  row[PORT_START_COLUMN + column] == 'x' ? PORT_NAME[column] : nil
+  ['x','o'].include?(row[PORT_START_COLUMN + column]) ? PORT_NAME[column] : nil
 end
 
 def power_per_charging_point(row)

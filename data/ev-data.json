@@ -416,7 +416,7 @@
       "model": "Kona",
       "release_year": 2018,
       "variant": "39 kWh",
-      "usable_battery_size": 39.0,
+      "usable_battery_size": 39.2,
       "ac_charger": {
         "usable_phases": 1,
         "ports": [
@@ -508,6 +508,52 @@
           }
         ],
         "is_default_charging_curve": false
+      }
+    },
+    {
+      "id": "3038b11b-2dfc-4f9f-b22c-4bfdc08d0c4b",
+      "brand": "Hyundai",
+      "model": "Ioniq",
+      "release_year": 2019,
+      "variant": "",
+      "usable_battery_size": 38.3,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.2,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.2,
+          "11": 3.7,
+          "16": 5.4,
+          "22": 7.2,
+          "43": 7.2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 47.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 44
+          },
+          {
+            "percentage": 75,
+            "power": 47.0
+          },
+          {
+            "percentage": 100,
+            "power": 7.2
+          }
+        ],
+        "is_default_charging_curve": true
       }
     },
     {
@@ -2112,6 +2158,8 @@
       },
       "dc_charger": {
         "ports": [
+          "ccs",
+          "chademo",
           "tesla_suc"
         ],
         "max_power": 140,
@@ -2162,6 +2210,8 @@
       },
       "dc_charger": {
         "ports": [
+          "ccs",
+          "chademo",
           "tesla_suc"
         ],
         "max_power": 140,
@@ -2212,6 +2262,8 @@
       },
       "dc_charger": {
         "ports": [
+          "ccs",
+          "chademo",
           "tesla_suc"
         ],
         "max_power": 140,
@@ -2262,6 +2314,8 @@
       },
       "dc_charger": {
         "ports": [
+          "ccs",
+          "chademo",
           "tesla_suc"
         ],
         "max_power": 140,
@@ -2312,6 +2366,8 @@
       },
       "dc_charger": {
         "ports": [
+          "ccs",
+          "chademo",
           "tesla_suc"
         ],
         "max_power": 140,
@@ -2362,6 +2418,8 @@
       },
       "dc_charger": {
         "ports": [
+          "ccs",
+          "chademo",
           "tesla_suc"
         ],
         "max_power": 140,
@@ -2696,7 +2754,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2019-10-04T15:03:30Z",
-    "overall_count": 62
+    "updated_at": "2019-10-19T14:25:04Z",
+    "overall_count": 63
   }
 }
