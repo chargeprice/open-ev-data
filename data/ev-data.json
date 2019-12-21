@@ -1032,7 +1032,7 @@
       "id": "5335d545-cfeb-4bca-bb11-cf0966f1b5ca",
       "brand": "Mercedes Benz",
       "model": "EQC",
-      "release_year": null,
+      "release_year": 2019,
       "variant": "",
       "usable_battery_size": 80.0,
       "ac_charger": {
@@ -1628,8 +1628,8 @@
     },
     {
       "id": "7f4bf402-f8e2-47da-b456-30f1bdfce8ac",
-      "brand": "Opel Ampera",
-      "model": "e-Pionier",
+      "brand": "Opel",
+      "model": "Ampera e-Pionier",
       "release_year": 2012,
       "variant": "",
       "usable_battery_size": 10.6,
@@ -2681,6 +2681,190 @@
       "dc_charger": null
     },
     {
+      "id": "57184038-ae77-4540-9367-ccb98beb8cc3",
+      "brand": "Volkswagen",
+      "model": "e-up",
+      "release_year": 2020,
+      "variant": "",
+      "usable_battery_size": 32.3,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.2,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.2,
+          "11": 3.7,
+          "16": 5.4,
+          "22": 7.2,
+          "43": 7.2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 40.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 38
+          },
+          {
+            "percentage": 75,
+            "power": 40.0
+          },
+          {
+            "percentage": 100,
+            "power": 7.2
+          }
+        ],
+        "is_default_charging_curve": true
+      }
+    },
+    {
+      "id": "0a7e79c1-ecd6-4639-bac1-9c9e49fec84c",
+      "brand": "Volkswagen",
+      "model": "ID.3",
+      "release_year": 2020,
+      "variant": "Standard Range",
+      "usable_battery_size": 45.0,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.2,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.2,
+          "11": 3.7,
+          "16": 5.4,
+          "22": 7.2,
+          "43": 7.2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 50.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 47
+          },
+          {
+            "percentage": 75,
+            "power": 50.0
+          },
+          {
+            "percentage": 100,
+            "power": 7.2
+          }
+        ],
+        "is_default_charging_curve": true
+      }
+    },
+    {
+      "id": "d8044adf-2538-4d45-b2d8-2b2fd0951766",
+      "brand": "Volkswagen",
+      "model": "ID.3",
+      "release_year": 2020,
+      "variant": "Mid Range",
+      "usable_battery_size": 58.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 95
+          },
+          {
+            "percentage": 75,
+            "power": 100.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      }
+    },
+    {
+      "id": "cb995cc3-84d9-4c87-89dc-f9dee7a47156",
+      "brand": "Volkswagen",
+      "model": "ID.3",
+      "release_year": 2020,
+      "variant": "Long Range",
+      "usable_battery_size": 77.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 125.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 118
+          },
+          {
+            "percentage": 75,
+            "power": 125.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      }
+    },
+    {
       "id": "1847e3aa-750c-4b12-a80a-56e792b3aadb",
       "brand": "Mitsubishi",
       "model": "Outlander PHEV",
@@ -2751,10 +2935,410 @@
         }
       },
       "dc_charger": null
+    },
+    {
+      "id": "926efa33-4c55-43df-80f3-4b8d2d65a00a",
+      "brand": "Peugeot",
+      "model": "e-208",
+      "release_year": 2020,
+      "variant": "7,2 kW-AC",
+      "usable_battery_size": 47.5,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.4,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 3.7,
+          "16": 5.4,
+          "22": 7.4,
+          "43": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 95
+          },
+          {
+            "percentage": 75,
+            "power": 100.0
+          },
+          {
+            "percentage": 100,
+            "power": 7.4
+          }
+        ],
+        "is_default_charging_curve": true
+      }
+    },
+    {
+      "id": "de7bac96-33ed-44f2-964e-21a4878e9f00",
+      "brand": "Peugeot",
+      "model": "e-208",
+      "release_year": 2020,
+      "variant": "11 kW-AC",
+      "usable_battery_size": 47.5,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 95
+          },
+          {
+            "percentage": 75,
+            "power": 100.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      }
+    },
+    {
+      "id": "72695d36-29c4-4726-8ca8-5333fb3f9865",
+      "brand": "Peugeot",
+      "model": "e-2008",
+      "release_year": 2020,
+      "variant": "7,2 kW-AC",
+      "usable_battery_size": 47.5,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.4,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 3.7,
+          "16": 5.4,
+          "22": 7.4,
+          "43": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 95
+          },
+          {
+            "percentage": 75,
+            "power": 100.0
+          },
+          {
+            "percentage": 100,
+            "power": 7.4
+          }
+        ],
+        "is_default_charging_curve": true
+      }
+    },
+    {
+      "id": "9d101a26-eaaa-4058-a251-5221b45ffd91",
+      "brand": "Peugeot",
+      "model": "e-2008",
+      "release_year": 2020,
+      "variant": "11 kW-AC",
+      "usable_battery_size": 47.5,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 95
+          },
+          {
+            "percentage": 75,
+            "power": 100.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      }
+    },
+    {
+      "id": "e60a8ec6-a6dd-46ae-846a-35cb57f1d8e3",
+      "brand": "Peugeot",
+      "model": "Partner",
+      "release_year": null,
+      "variant": "",
+      "usable_battery_size": 22.5,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type1"
+        ],
+        "max_power": 3.2,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.2,
+          "7.4": 3.2,
+          "11": 3.2,
+          "16": 3.2,
+          "22": 3.2,
+          "43": 3.2
+        }
+      },
+      "dc_charger": null
+    },
+    {
+      "id": "1cec7821-632f-4f17-8a58-644b6ab23f44",
+      "brand": "Opel",
+      "model": "Corsa-e",
+      "release_year": 2020,
+      "variant": "7,2 kW-AC",
+      "usable_battery_size": 47.5,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.4,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 3.7,
+          "16": 5.4,
+          "22": 7.4,
+          "43": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 95
+          },
+          {
+            "percentage": 75,
+            "power": 100.0
+          },
+          {
+            "percentage": 100,
+            "power": 7.4
+          }
+        ],
+        "is_default_charging_curve": true
+      }
+    },
+    {
+      "id": "6f96c616-e87a-4958-bbe7-b4278be00170",
+      "brand": "Opel",
+      "model": "Corsa-e",
+      "release_year": 2020,
+      "variant": "11 kW-AC",
+      "usable_battery_size": 47.5,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 95
+          },
+          {
+            "percentage": 75,
+            "power": 100.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      }
+    },
+    {
+      "id": "e8773876-6036-4a6c-926e-5490aae58971",
+      "brand": "Citroen",
+      "model": "Berlingo Electric",
+      "release_year": null,
+      "variant": "",
+      "usable_battery_size": 22.5,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type1"
+        ],
+        "max_power": 3.2,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.2,
+          "7.4": 3.2,
+          "11": 3.2,
+          "16": 3.2,
+          "22": 3.2,
+          "43": 3.2
+        }
+      },
+      "dc_charger": null
+    },
+    {
+      "id": "8cfce5f4-23b6-470a-87fa-a04095fe0334",
+      "brand": "Mini",
+      "model": "Countryman ALL4",
+      "release_year": 2019,
+      "variant": "",
+      "usable_battery_size": 7.6,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.6,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.6,
+          "7.4": 3.6,
+          "11": 3.6,
+          "16": 3.6,
+          "22": 3.6,
+          "43": 3.6
+        }
+      },
+      "dc_charger": null
+    },
+    {
+      "id": "5bfa9a87-7b35-4e3a-bd3f-dc2ac55e184b",
+      "brand": "Honda",
+      "model": "e",
+      "release_year": 2020,
+      "variant": "",
+      "usable_battery_size": 32.0,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 6.6,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 6.6,
+          "11": 3.7,
+          "16": 5.4,
+          "22": 6.6,
+          "43": 6.6
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 60.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 57
+          },
+          {
+            "percentage": 75,
+            "power": 60.0
+          },
+          {
+            "percentage": 100,
+            "power": 6.6
+          }
+        ],
+        "is_default_charging_curve": true
+      }
     }
   ],
   "meta": {
-    "updated_at": "2019-10-19T14:25:04Z",
-    "overall_count": 63
+    "updated_at": "2019-12-21T21:28:36Z",
+    "overall_count": 77
   }
 }
