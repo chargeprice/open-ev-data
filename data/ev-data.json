@@ -2734,7 +2734,7 @@
       "variant": "Standard Range",
       "usable_battery_size": 45.0,
       "ac_charger": {
-        "usable_phases": 1,
+        "usable_phases": 2,
         "ports": [
           "type2"
         ],
@@ -2744,8 +2744,8 @@
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.2,
-          "11": 3.7,
-          "16": 5.4,
+          "11": 7.2,
+          "16": 7.2,
           "22": 7.2,
           "43": 7.2
         }
@@ -3338,7 +3338,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2019-12-22T13:02:20Z",
+    "updated_at": "2019-12-22T13:03:59Z",
     "overall_count": 77
   }
 }
