@@ -2162,26 +2162,22 @@
           "chademo",
           "tesla_suc"
         ],
-        "max_power": 140,
+        "max_power": 100.0,
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 125
+            "power": 95
           },
           {
-            "percentage": 43,
-            "power": 140
-          },
-          {
-            "percentage": 80,
-            "power": 37
+            "percentage": 75,
+            "power": 100.0
           },
           {
             "percentage": 100,
-            "power": 12
+            "power": 11.0
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       }
     },
     {
@@ -2214,26 +2210,70 @@
           "chademo",
           "tesla_suc"
         ],
-        "max_power": 140,
+        "max_power": 100.0,
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 125
+            "power": 95
           },
           {
-            "percentage": 43,
-            "power": 140
-          },
-          {
-            "percentage": 80,
-            "power": 37
+            "percentage": 75,
+            "power": 100.0
           },
           {
             "percentage": 100,
-            "power": 12
+            "power": 22.0
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
+      }
+    },
+    {
+      "id": "7f709186-39c3-420f-9caf-1fdb424f7953",
+      "brand": "Tesla",
+      "model": "Model S",
+      "release_year": null,
+      "variant": "75",
+      "usable_battery_size": 72.5,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 16.5,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.100000000000001,
+          "16": 16.200000000000003,
+          "22": 16.5,
+          "43": 16.5
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs",
+          "chademo",
+          "tesla_suc"
+        ],
+        "max_power": 120.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 114
+          },
+          {
+            "percentage": 75,
+            "power": 120.0
+          },
+          {
+            "percentage": 100,
+            "power": 16.5
+          }
+        ],
+        "is_default_charging_curve": true
       }
     },
     {
@@ -3338,7 +3378,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2019-12-22T13:03:59Z",
-    "overall_count": 77
+    "updated_at": "2019-12-23T12:15:08Z",
+    "overall_count": 78
   }
 }
