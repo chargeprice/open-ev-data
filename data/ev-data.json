@@ -2926,6 +2926,32 @@
           "43": 7.2
         }
       },
+      "dc_charger": null
+    },
+    {
+      "id": "fc5b3c94-c0eb-4515-af3d-4a4106ffe29f",
+      "brand": "Volkswagen",
+      "model": "e-up",
+      "release_year": 2020,
+      "variant": "CCS",
+      "usable_battery_size": 32.3,
+      "ac_charger": {
+        "usable_phases": 2,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.2,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.2,
+          "11": 7.2,
+          "16": 7.2,
+          "22": 7.2,
+          "43": 7.2
+        }
+      },
       "dc_charger": {
         "ports": [
           "ccs"
@@ -3560,7 +3586,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2020-02-02T09:33:36Z",
-    "overall_count": 81
+    "updated_at": "2020-02-02T09:42:15Z",
+    "overall_count": 82
   }
 }
