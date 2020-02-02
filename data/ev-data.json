@@ -635,6 +635,84 @@
       }
     },
     {
+      "id": "c1fd1277-5d77-416b-bb25-84bd21f57963",
+      "brand": "Hyundai",
+      "model": "Kona",
+      "release_year": 2020,
+      "variant": "64 kWh",
+      "usable_battery_size": 64.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 77,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 70
+          },
+          {
+            "percentage": 40,
+            "power": 77
+          },
+          {
+            "percentage": 42,
+            "power": 70
+          },
+          {
+            "percentage": 53,
+            "power": 71
+          },
+          {
+            "percentage": 55,
+            "power": 57
+          },
+          {
+            "percentage": 71,
+            "power": 58
+          },
+          {
+            "percentage": 72,
+            "power": 38
+          },
+          {
+            "percentage": 76,
+            "power": 38
+          },
+          {
+            "percentage": 78,
+            "power": 25
+          },
+          {
+            "percentage": 88,
+            "power": 25
+          },
+          {
+            "percentage": 100,
+            "power": 8
+          }
+        ],
+        "is_default_charging_curve": false
+      }
+    },
+    {
       "id": "8da12395-cf7a-4ccf-886f-e25ade426457",
       "brand": "Jaguar",
       "model": "i-Pace",
@@ -894,6 +972,84 @@
           "16": 5.4,
           "22": 7.2,
           "43": 7.2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 77,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 70
+          },
+          {
+            "percentage": 40,
+            "power": 77
+          },
+          {
+            "percentage": 42,
+            "power": 70
+          },
+          {
+            "percentage": 53,
+            "power": 71
+          },
+          {
+            "percentage": 55,
+            "power": 57
+          },
+          {
+            "percentage": 71,
+            "power": 58
+          },
+          {
+            "percentage": 72,
+            "power": 38
+          },
+          {
+            "percentage": 76,
+            "power": 38
+          },
+          {
+            "percentage": 78,
+            "power": 25
+          },
+          {
+            "percentage": 88,
+            "power": 25
+          },
+          {
+            "percentage": 100,
+            "power": 8
+          }
+        ],
+        "is_default_charging_curve": false
+      }
+    },
+    {
+      "id": "68cbedff-8994-4b77-bfb5-6aa22962e3a2",
+      "brand": "Kia",
+      "model": "e-Niro",
+      "release_year": 2020,
+      "variant": "64 kWh",
+      "usable_battery_size": 64.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
         }
       },
       "dc_charger": {
@@ -1870,6 +2026,32 @@
           "16": 5.4,
           "22": 7.2,
           "43": 7.2
+        }
+      },
+      "dc_charger": null
+    },
+    {
+      "id": "8f6db2f5-1dd9-46f6-bb97-eba419dbaea4",
+      "brand": "Renault",
+      "model": "Twizy",
+      "release_year": null,
+      "variant": "",
+      "usable_battery_size": 6.1,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.6,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.6,
+          "7.4": 3.6,
+          "11": 3.6,
+          "16": 3.6,
+          "22": 3.6,
+          "43": 3.6
         }
       },
       "dc_charger": null
@@ -3378,7 +3560,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2019-12-23T12:15:08Z",
-    "overall_count": 78
+    "updated_at": "2020-02-02T09:33:36Z",
+    "overall_count": 81
   }
 }
