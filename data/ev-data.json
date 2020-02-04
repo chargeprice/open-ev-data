@@ -3583,10 +3583,194 @@
         ],
         "is_default_charging_curve": true
       }
+    },
+    {
+      "id": "4c04db3b-c493-4b90-9859-21b7304a4ffc",
+      "brand": "Porsche",
+      "model": "Taycan",
+      "release_year": 2020,
+      "variant": "Turbo S",
+      "usable_battery_size": 83.7,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 270.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 256
+          },
+          {
+            "percentage": 75,
+            "power": 270.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      }
+    },
+    {
+      "id": "34b5ef32-efea-48fc-8386-3800d0b737f0",
+      "brand": "Porsche",
+      "model": "Taycan",
+      "release_year": 2020,
+      "variant": "4S",
+      "usable_battery_size": 71.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 225.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 213
+          },
+          {
+            "percentage": 75,
+            "power": 225.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      }
+    },
+    {
+      "id": "6990914a-6a0d-49d4-87f5-ee86ee33344c",
+      "brand": "Porsche",
+      "model": "Taycan",
+      "release_year": 2020,
+      "variant": "4S Plus",
+      "usable_battery_size": 83.7,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 270.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 256
+          },
+          {
+            "percentage": 75,
+            "power": 270.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      }
+    },
+    {
+      "id": "a12f033f-f2c2-44bd-b62c-7019898a72d0",
+      "brand": "Porsche",
+      "model": "Taycan",
+      "release_year": 2020,
+      "variant": "Turbo ",
+      "usable_battery_size": 83.7,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 270.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 256
+          },
+          {
+            "percentage": 75,
+            "power": 270.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      }
     }
   ],
   "meta": {
-    "updated_at": "2020-02-02T09:42:15Z",
-    "overall_count": 82
+    "updated_at": "2020-02-04T20:41:26Z",
+    "overall_count": 86
   }
 }
