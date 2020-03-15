@@ -6,7 +6,7 @@
       "model": "e-tron 55",
       "release_year": 2019,
       "variant": "",
-      "usable_battery_size": 84.0,
+      "usable_battery_size": 86.5,
       "ac_charger": {
         "usable_phases": 3,
         "ports": [
@@ -64,22 +64,22 @@
       "model": "e-tron 55",
       "release_year": 2019,
       "variant": "22kW-AC",
-      "usable_battery_size": 84.0,
+      "usable_battery_size": 86.5,
       "ac_charger": {
         "usable_phases": 3,
         "ports": [
           "type2"
         ],
-        "max_power": 11.0,
+        "max_power": 22.0,
         "power_per_charging_point": {
           "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4,
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0
+          "11": 11.100000000000001,
+          "16": 16.200000000000003,
+          "22": 22.0,
+          "43": 22.0
         }
       },
       "dc_charger": {
@@ -114,6 +114,98 @@
           }
         ],
         "is_default_charging_curve": false
+      }
+    },
+    {
+      "id": "c6a6bd26-6a8f-4ab7-baf3-6cfa057044e3",
+      "brand": "Audi",
+      "model": "e-tron 50",
+      "release_year": 2019,
+      "variant": "",
+      "usable_battery_size": 65.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 125.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 118
+          },
+          {
+            "percentage": 75,
+            "power": 125.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      }
+    },
+    {
+      "id": "059c028d-b2a6-4a8d-947a-158c7537b290",
+      "brand": "Audi",
+      "model": "e-tron 50",
+      "release_year": 2019,
+      "variant": "22kW-AC",
+      "usable_battery_size": 65.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 22.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.100000000000001,
+          "16": 16.200000000000003,
+          "22": 22.0,
+          "43": 22.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 125.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 118
+          },
+          {
+            "percentage": 75,
+            "power": 125.0
+          },
+          {
+            "percentage": 100,
+            "power": 22.0
+          }
+        ],
+        "is_default_charging_curve": true
       }
     },
     {
@@ -3770,7 +3862,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2020-02-04T20:41:26Z",
-    "overall_count": 86
+    "updated_at": "2020-03-15T17:26:34Z",
+    "overall_count": 88
   }
 }
