@@ -11,11 +11,14 @@ PORT_START_COLUMN = 9
 MAX_AC_POWER_IDX = 7
 
 def csv_to_json_file
-  response = google_service.get_spreadsheet_values(sheet_id, 'Cars')
-  cars_hash = response.values.drop(1).map { |row| parse_car(row) }
+  response_cars = google_service.get_spreadsheet_values(sheet_id, 'Cars')
+  response_brands = google_service.get_spreadsheet_values(sheet_id, 'Brands')
+  indexed_brands = indexed_brands(response_brands)
+  cars_hash = response_cars.values.drop(1).map { |row| parse_car(row,indexed_brands) }
 
   hash = {
     data: cars_hash,
+    brands: indexed_brands.map { |name,id| { id: id, name: name } },
     meta: {
       updated_at: Time.now.utc.iso8601,
       overall_count: cars_hash.size
@@ -33,10 +36,11 @@ def google_service
   service
 end
 
-def parse_car(row)
+def parse_car(row,brands)
   {
     id: row[0],
     brand: row[1],
+    brand_id: brands.fetch(row[1]) { raise "brand #{row[1]} not found" },
     model: row[2],
     release_year: !row[3].empty? ? to_i(row[3]) : nil,
     variant: row[4],
@@ -44,6 +48,12 @@ def parse_car(row)
     ac_charger: ac_charger(row),
     dc_charger: dc_charger(row)
   }
+end
+
+def indexed_brands(response_brands)
+  response_brands.values.drop(1).each_with_object({}) do |(id,name),memo|
+    memo[name]=id
+  end
 end
 
 def ac_charger(row)
