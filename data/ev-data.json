@@ -366,6 +366,33 @@
       }
     },
     {
+      "id": "4df1d4d6-f001-4d0a-b284-5ffc07e6ade2",
+      "brand": "BMW",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "X5",
+      "release_year": 2020,
+      "variant": "PEHV",
+      "usable_battery_size": 21.0,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.7,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 3.7,
+          "11": 3.7,
+          "16": 3.7,
+          "22": 3.7,
+          "43": 3.7
+        }
+      },
+      "dc_charger": null
+    },
+    {
       "id": "45b68c71-cd11-4bd7-a03f-fdaae259635d",
       "brand": "Citroen",
       "brand_id": "3b3fc191-f4c3-45da-bc3b-21efbe1b264f",
@@ -4032,7 +4059,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2020-03-22T16:19:39Z",
-    "overall_count": 88
+    "updated_at": "2020-04-13T10:55:27Z",
+    "overall_count": 89
   }
 }
