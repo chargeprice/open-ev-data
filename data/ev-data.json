@@ -371,7 +371,7 @@
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
       "model": "X5",
       "release_year": 2020,
-      "variant": "PEHV",
+      "variant": "PHEV",
       "usable_battery_size": 21.0,
       "ac_charger": {
         "usable_phases": 1,
@@ -4059,7 +4059,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2020-04-13T10:55:27Z",
+    "updated_at": "2020-04-13T10:58:23Z",
     "overall_count": 89
   }
 }
