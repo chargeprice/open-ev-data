@@ -3974,6 +3974,100 @@
         ],
         "is_default_charging_curve": true
       }
+    },
+    {
+      "id": "8b0195b6-5318-46d9-a6fd-1b5f75e8b495",
+      "brand": "MG",
+      "brand_id": "5663b87a-d940-4bab-9846-d74c8c0ae260",
+      "model": "ZS EV",
+      "release_year": 2020,
+      "variant": "",
+      "usable_battery_size": 44.5,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 6.6,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 6.6,
+          "11": 3.7,
+          "16": 5.4,
+          "22": 6.6,
+          "43": 6.6
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 55.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 52
+          },
+          {
+            "percentage": 75,
+            "power": 55.0
+          },
+          {
+            "percentage": 100,
+            "power": 6.6
+          }
+        ],
+        "is_default_charging_curve": true
+      }
+    },
+    {
+      "id": "2ae110f8-8906-4b03-b4bc-83e5577c1cc1",
+      "brand": "SAIC",
+      "brand_id": "171a1e6d-8cbc-41a9-a8bb-e05b7ee98889",
+      "model": "Maxus EV80",
+      "release_year": 2018,
+      "variant": "",
+      "usable_battery_size": 56.0,
+      "ac_charger": {
+        "usable_phases": 2,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 6.6,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 6.6,
+          "11": 6.6,
+          "16": 6.6,
+          "22": 6.6,
+          "43": 6.6
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 28.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 26
+          },
+          {
+            "percentage": 75,
+            "power": 28.0
+          },
+          {
+            "percentage": 100,
+            "power": 6.6
+          }
+        ],
+        "is_default_charging_curve": true
+      }
     }
   ],
   "brands": [
@@ -4056,10 +4150,18 @@
     {
       "id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
       "name": "Porsche"
+    },
+    {
+      "id": "5663b87a-d940-4bab-9846-d74c8c0ae260",
+      "name": "MG"
+    },
+    {
+      "id": "171a1e6d-8cbc-41a9-a8bb-e05b7ee98889",
+      "name": "SAIC"
     }
   ],
   "meta": {
-    "updated_at": "2020-04-13T10:58:23Z",
-    "overall_count": 89
+    "updated_at": "2020-04-21T16:39:01Z",
+    "overall_count": 91
   }
 }
