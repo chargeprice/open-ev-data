@@ -3378,6 +3378,33 @@
       "dc_charger": null
     },
     {
+      "id": "ec3b0af7-67c6-400d-b3c2-aa2f3be24c8a",
+      "brand": "Volkswagen",
+      "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
+      "model": "Passat GTE",
+      "release_year": 2019,
+      "variant": "",
+      "usable_battery_size": 13.1,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.7,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 3.7,
+          "11": 3.7,
+          "16": 3.7,
+          "22": 3.7,
+          "43": 3.7
+        }
+      },
+      "dc_charger": null
+    },
+    {
       "id": "926efa33-4c55-43df-80f3-4b8d2d65a00a",
       "brand": "Peugeot",
       "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
@@ -4161,7 +4188,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2020-04-21T16:39:01Z",
-    "overall_count": 91
+    "updated_at": "2020-04-25T20:50:37Z",
+    "overall_count": 92
   }
 }
