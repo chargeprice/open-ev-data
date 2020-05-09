@@ -3768,6 +3768,53 @@
       "dc_charger": null
     },
     {
+      "id": "d8c11860-a582-4784-9e58-d29e94a67fc2",
+      "brand": "Mini",
+      "brand_id": "6d9d9248-de4a-4b13-976b-4e9f6688b0b1",
+      "model": "Cooper SE",
+      "release_year": 2020,
+      "variant": "",
+      "usable_battery_size": 28.9,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 50.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 47
+          },
+          {
+            "percentage": 75,
+            "power": 50.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      }
+    },
+    {
       "id": "5bfa9a87-7b35-4e3a-bd3f-dc2ac55e184b",
       "brand": "Honda",
       "brand_id": "9ca5e092-76e2-4868-afc1-c06abeedf81b",
@@ -4188,7 +4235,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2020-04-25T20:50:37Z",
-    "overall_count": 92
+    "updated_at": "2020-05-09T20:30:13Z",
+    "overall_count": 93
   }
 }
