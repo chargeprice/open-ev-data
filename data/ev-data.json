@@ -3191,22 +3191,26 @@
         "ports": [
           "ccs"
         ],
-        "max_power": 40.0,
+        "max_power": 34,
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 38
+            "power": 32
           },
           {
-            "percentage": 75,
-            "power": 40.0
+            "percentage": 27,
+            "power": 34
+          },
+          {
+            "percentage": 80,
+            "power": 14
           },
           {
             "percentage": 100,
-            "power": 7.2
+            "power": 7
           }
         ],
-        "is_default_charging_curve": true
+        "is_default_charging_curve": false
       }
     },
     {
@@ -4189,6 +4193,108 @@
         ],
         "is_default_charging_curve": true
       }
+    },
+    {
+      "id": "2eea1ef2-0fd1-481d-adee-68044666614e",
+      "brand": "Seat",
+      "brand_id": "91c527ff-aa74-4dbb-9091-36fb5ddd44b6",
+      "model": "Mii Electric",
+      "release_year": 2020,
+      "variant": "CCS",
+      "usable_battery_size": 32.3,
+      "ac_charger": {
+        "usable_phases": 2,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.2,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.2,
+          "11": 7.2,
+          "16": 7.2,
+          "22": 7.2,
+          "43": 7.2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 34,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 32
+          },
+          {
+            "percentage": 27,
+            "power": 34
+          },
+          {
+            "percentage": 80,
+            "power": 14
+          },
+          {
+            "percentage": 100,
+            "power": 7
+          }
+        ],
+        "is_default_charging_curve": false
+      }
+    },
+    {
+      "id": "ffcd3116-4e17-49ff-a926-941c062643ea",
+      "brand": "Skoda",
+      "brand_id": "43763587-6999-406b-8843-28977e1b82c3",
+      "model": "CITIGOe iV",
+      "release_year": 2020,
+      "variant": "CCS",
+      "usable_battery_size": 32.3,
+      "ac_charger": {
+        "usable_phases": 2,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.2,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.2,
+          "11": 7.2,
+          "16": 7.2,
+          "22": 7.2,
+          "43": 7.2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 34,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 32
+          },
+          {
+            "percentage": 27,
+            "power": 34
+          },
+          {
+            "percentage": 80,
+            "power": 14
+          },
+          {
+            "percentage": 100,
+            "power": 7
+          }
+        ],
+        "is_default_charging_curve": false
+      }
     }
   ],
   "brands": [
@@ -4283,10 +4389,18 @@
     {
       "id": "391f000f-d9d1-4c13-b744-95f0b9c8a2e1",
       "name": "Polestar"
+    },
+    {
+      "id": "43763587-6999-406b-8843-28977e1b82c3",
+      "name": "Skoda"
+    },
+    {
+      "id": "91c527ff-aa74-4dbb-9091-36fb5ddd44b6",
+      "name": "Seat"
     }
   ],
   "meta": {
-    "updated_at": "2020-05-18T19:51:49Z",
-    "overall_count": 94
+    "updated_at": "2020-05-20T19:25:33Z",
+    "overall_count": 96
   }
 }
