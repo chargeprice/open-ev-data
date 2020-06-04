@@ -213,6 +213,33 @@
       }
     },
     {
+      "id": "c8e05c0b-05c0-4aac-9f12-35a6a3687e10",
+      "brand": "Audi",
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "model": "A3 Sportback 40 e-tron",
+      "release_year": 2020,
+      "variant": "",
+      "usable_battery_size": 8.8,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.7,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 3.7,
+          "11": 3.7,
+          "16": 3.7,
+          "22": 3.7,
+          "43": 3.7
+        }
+      },
+      "dc_charger": null
+    },
+    {
       "id": "e67dc450-d658-4bee-bd0f-a750d445b2f9",
       "brand": "BMW",
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
@@ -4400,7 +4427,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2020-05-20T19:25:33Z",
-    "overall_count": 96
+    "updated_at": "2020-06-04T16:30:48Z",
+    "overall_count": 97
   }
 }
