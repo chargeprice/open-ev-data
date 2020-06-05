@@ -5,7 +5,7 @@ In contrast to ICE cars, electric vehicles have very different behavious in term
 
 This dataset (`data/ev-data.json`) can be freely integrated into ANY application.
 
-This is a side project of the charging price and tariff comparison platform [Chargeprice (former Plugchecker)](https://github.com/hoenic07/plugchecker).
+This is a side project of the charging price and tariff comparison platform [Chargeprice](https://www.chargeprice.app).
 
 ## Available Data
 
