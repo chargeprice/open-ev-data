@@ -7,8 +7,30 @@ Dotenv.load('.env')
 
 FILE_NAME = '../data/ev-data.json'.freeze
 PORT_NAME = %i[type1 type2 ccs chademo tesla_suc tesla_ccs].freeze
-PORT_START_COLUMN = 9
-MAX_AC_POWER_IDX = 7
+ALLOWED_TYPES = ["bev","phev"]
+
+ROWS = [
+  :id,
+  :brand,
+  :type,
+  :model,
+  :release_year,
+  :variant,
+  :usable_battery_size,
+  :average_consumption,
+  :ac_phases,
+  :max_ac_power,
+  :max_dc_power,
+  :plug_type1,
+  :plug_type2,
+  :plug_ccs,
+  :plug_chademo,
+  :plug_tesla_suc,
+  :plug_tesla_ccs,
+  :dc_charging_curve
+]
+
+PORT_START_COLUMN = ROWS.index(:plug_type1)
 
 def csv_to_json_file
   response_cars = google_service.get_spreadsheet_values(sheet_id, 'Cars')
@@ -38,15 +60,19 @@ end
 
 def parse_car(row,brands)
   {
-    id: row[0],
-    brand: row[1],
-    brand_id: brands.fetch(row[1]) { raise "brand #{row[1]} not found" },
-    model: row[2],
-    release_year: !row[3].empty? ? to_i(row[3]) : nil,
-    variant: row[4],
-    usable_battery_size: to_f(row[5]),
+    id: field(row,:id),
+    brand: field(row,:brand),
+    type: field(row, :type).downcase.tap { |t| ALLOWED_TYPES.include?(t) },
+    brand_id: brands.fetch(field(row,:brand)) { raise "brand #{field(row,:brand)} not found" },
+    model: field(row,:model),
+    release_year: !field(row,:release_year).empty? ? to_i(row,:release_year) : nil,
+    variant: field(row,:variant),
+    usable_battery_size: to_f(row,:usable_battery_size),
     ac_charger: ac_charger(row),
-    dc_charger: dc_charger(row)
+    dc_charger: dc_charger(row),
+    energy_consumption: {
+      average_consumption: to_f(row,:average_consumption)
+    }
   }
 end
 
@@ -58,9 +84,9 @@ end
 
 def ac_charger(row)
   {
-    usable_phases: to_i(row[6]),
+    usable_phases: to_i(row,:ac_phases),
     ports: [fetch_port(row, 0), fetch_port(row, 1)].compact,
-    max_power: to_f(row[7]),
+    max_power: to_f(row,:max_ac_power),
     power_per_charging_point: power_per_charging_point(row)
   }
 end
@@ -70,7 +96,7 @@ def dc_charger(row)
   return if ports.empty?
 
   curve = charging_curve(row)
-  max_power = to_f(row[8])
+  max_power = to_f(row,:max_dc_power)
   {
     ports: ports,
     max_power: curve ? curve.max_by { |v| v[:power] }[:power] : max_power,
@@ -80,14 +106,14 @@ def dc_charger(row)
 end
 
 def charging_curve(row) # rubocop:disable Metrics/MethodLength
-  data = row[15]
+  data = field(row,:dc_charging_curve)
   return if data.nil? || data.empty?
 
   last_percentage = -1
   data.split(';').map do |pair|
     percentage, power = pair.split(',')
-    percentage = to_i(percentage)
-    power = to_i(power)
+    percentage = Integer(percentage)
+    power = Integer(power)
     raise 'percentage needs to grow' if last_percentage >= percentage
 
     last_percentage = percentage
@@ -96,7 +122,7 @@ def charging_curve(row) # rubocop:disable Metrics/MethodLength
 end
 
 def default_charging_curve(max_power, row)
-  max_ac_power = to_f(row[MAX_AC_POWER_IDX])
+  max_ac_power = to_f(row,:max_ac_power)
   [
     { percentage: 0, power: (max_power * 0.95).to_i },
     { percentage: 75, power: max_power },
@@ -109,8 +135,8 @@ def fetch_port(row, column)
 end
 
 def power_per_charging_point(row)
-  max_power = to_f(row[MAX_AC_POWER_IDX])
-  max_phases = to_i(row[6])
+  max_power = to_f(row,:max_ac_power)
+  max_phases = to_i(row,:ac_phases)
   {
     2.0 => [max_power, 2.0].min,
     2.3 => [max_power, 2.3].min,
@@ -123,11 +149,17 @@ def power_per_charging_point(row)
   }
 end
 
-def to_f(value)
+def field(row,name)
+  row[ROWS.index(name)]
+end
+
+def to_f(row,name)
+  value = field(row,name)
   Float(value.tr(',', '.')).tap { |f| raise 'float must be >=0' unless f >= 0 }
 end
 
-def to_i(value)
+def to_i(row,name)
+  value = field(row,name)
   Integer(value).tap { |i| raise 'int must be >=0' unless i >= 0 }
 end
 

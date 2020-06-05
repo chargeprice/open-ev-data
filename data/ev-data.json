@@ -3,6 +3,7 @@
     {
       "id": "a9a177bf-9ce5-4b67-b3ef-51af248b48c2",
       "brand": "Audi",
+      "type": "bev",
       "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
       "model": "e-tron 55",
       "release_year": 2019,
@@ -57,11 +58,15 @@
           }
         ],
         "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 23.4
       }
     },
     {
       "id": "27d7610e-9a77-498a-b1b5-28d4bc92cbf2",
       "brand": "Audi",
+      "type": "bev",
       "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
       "model": "e-tron 55",
       "release_year": 2019,
@@ -116,11 +121,15 @@
           }
         ],
         "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 23.4
       }
     },
     {
       "id": "c6a6bd26-6a8f-4ab7-baf3-6cfa057044e3",
       "brand": "Audi",
+      "type": "bev",
       "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
       "model": "e-tron 50",
       "release_year": 2019,
@@ -163,11 +172,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 22.7
       }
     },
     {
       "id": "059c028d-b2a6-4a8d-947a-158c7537b290",
       "brand": "Audi",
+      "type": "bev",
       "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
       "model": "e-tron 50",
       "release_year": 2019,
@@ -210,11 +223,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 22.7
       }
     },
     {
       "id": "c8e05c0b-05c0-4aac-9f12-35a6a3687e10",
       "brand": "Audi",
+      "type": "phev",
       "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
       "model": "A3 Sportback 40 e-tron",
       "release_year": 2020,
@@ -237,11 +254,15 @@
           "43": 3.7
         }
       },
-      "dc_charger": null
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 12.4
+      }
     },
     {
       "id": "e67dc450-d658-4bee-bd0f-a750d445b2f9",
       "brand": "BMW",
+      "type": "bev",
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
       "model": "i3",
       "release_year": null,
@@ -292,11 +313,15 @@
           }
         ],
         "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 14.5
       }
     },
     {
       "id": "0ec3f440-136c-49f1-8917-c629a27146c7",
       "brand": "BMW",
+      "type": "bev",
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
       "model": "i3",
       "release_year": null,
@@ -343,11 +368,15 @@
           }
         ],
         "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.0
       }
     },
     {
       "id": "dbf24ffc-3270-409b-b4da-ec386fa36657",
       "brand": "BMW",
+      "type": "bev",
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
       "model": "i3",
       "release_year": null,
@@ -390,11 +419,15 @@
           }
         ],
         "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.1
       }
     },
     {
       "id": "4df1d4d6-f001-4d0a-b284-5ffc07e6ade2",
       "brand": "BMW",
+      "type": "phev",
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
       "model": "X5",
       "release_year": 2020,
@@ -417,11 +450,15 @@
           "43": 3.7
         }
       },
-      "dc_charger": null
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 21.3
+      }
     },
     {
       "id": "45b68c71-cd11-4bd7-a03f-fdaae259635d",
       "brand": "Citroen",
+      "type": "bev",
       "brand_id": "3b3fc191-f4c3-45da-bc3b-21efbe1b264f",
       "model": "C-Zero",
       "release_year": null,
@@ -464,16 +501,20 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 17.1
       }
     },
     {
       "id": "2f2b159b-9b03-450f-9818-c139323d1735",
       "brand": "Fiat",
+      "type": "bev",
       "brand_id": "3291e5ba-862c-49fa-8437-71105743875e",
       "model": "500e",
       "release_year": null,
       "variant": "",
-      "usable_battery_size": 18.0,
+      "usable_battery_size": 19.2,
       "ac_charger": {
         "usable_phases": 1,
         "ports": [
@@ -491,11 +532,15 @@
           "43": 6.6
         }
       },
-      "dc_charger": null
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 18.0
+      }
     },
     {
       "id": "c0a26929-1157-4fb4-a999-4f172df9cad7",
       "brand": "Ford",
+      "type": "bev",
       "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
       "model": "Focus electric",
       "release_year": 2017,
@@ -538,11 +583,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 16.4
       }
     },
     {
       "id": "6cd5ba89-6523-4bca-9423-ea92227a8b8d",
       "brand": "Ford",
+      "type": "bev",
       "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
       "model": "Focus electric",
       "release_year": 2013,
@@ -565,11 +614,15 @@
           "43": 6.6
         }
       },
-      "dc_charger": null
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 16.4
+      }
     },
     {
       "id": "6cc437e9-b842-4c1b-9c08-9ca2d46d22a9",
       "brand": "Hyundai",
+      "type": "bev",
       "brand_id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
       "model": "Kona",
       "release_year": 2018,
@@ -612,11 +665,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 15.4
       }
     },
     {
       "id": "c576bee8-8066-4174-bc69-5fe9f2e666ee",
       "brand": "Hyundai",
+      "type": "bev",
       "brand_id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
       "model": "Ioniq",
       "release_year": 2016,
@@ -667,11 +724,15 @@
           }
         ],
         "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 14.4
       }
     },
     {
       "id": "3038b11b-2dfc-4f9f-b22c-4bfdc08d0c4b",
       "brand": "Hyundai",
+      "type": "bev",
       "brand_id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
       "model": "Ioniq",
       "release_year": 2019,
@@ -714,11 +775,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 15.3
       }
     },
     {
       "id": "8df35b23-dcc6-4590-83c7-5578da4c4809",
       "brand": "Hyundai",
+      "type": "bev",
       "brand_id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
       "model": "Kona",
       "release_year": 2018,
@@ -793,11 +858,15 @@
           }
         ],
         "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 15.8
       }
     },
     {
       "id": "c1fd1277-5d77-416b-bb25-84bd21f57963",
       "brand": "Hyundai",
+      "type": "bev",
       "brand_id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
       "model": "Kona",
       "release_year": 2020,
@@ -872,11 +941,15 @@
           }
         ],
         "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 15.8
       }
     },
     {
       "id": "8da12395-cf7a-4ccf-886f-e25ade426457",
       "brand": "Jaguar",
+      "type": "bev",
       "brand_id": "61fc79a2-04ca-418e-9333-caf5f67ba02f",
       "model": "i-Pace",
       "release_year": null,
@@ -927,11 +1000,15 @@
           }
         ],
         "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 23.2
       }
     },
     {
       "id": "66cb7bea-24b7-458f-ae3e-11d4a852568b",
       "brand": "Kia",
+      "type": "bev",
       "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
       "model": "e-Niro",
       "release_year": 2018,
@@ -974,11 +1051,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 16.3
       }
     },
     {
       "id": "add28704-7b59-474d-bfa6-2338e54ccaef",
       "brand": "Kia",
+      "type": "bev",
       "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
       "model": "Soul",
       "release_year": null,
@@ -1021,11 +1102,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 17.6
       }
     },
     {
       "id": "5e1746c9-56a2-4fb9-8a76-b75c95a037ee",
       "brand": "Kia",
+      "type": "bev",
       "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
       "model": "Soul",
       "release_year": null,
@@ -1068,11 +1153,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 17.6
       }
     },
     {
       "id": "58661a4c-e1f9-4dc2-8d09-3bb42be62554",
       "brand": "Kia",
+      "type": "bev",
       "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
       "model": "e-Soul",
       "release_year": 2019,
@@ -1115,11 +1204,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 17.0
       }
     },
     {
       "id": "0f7eae0b-43be-48f8-b4a0-1a8266fd07a9",
       "brand": "Kia",
+      "type": "bev",
       "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
       "model": "e-Niro",
       "release_year": 2018,
@@ -1194,11 +1287,15 @@
           }
         ],
         "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 17.3
       }
     },
     {
       "id": "68cbedff-8994-4b77-bfb5-6aa22962e3a2",
       "brand": "Kia",
+      "type": "bev",
       "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
       "model": "e-Niro",
       "release_year": 2020,
@@ -1273,11 +1370,15 @@
           }
         ],
         "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 17.3
       }
     },
     {
       "id": "3c933da2-1fa1-4094-825a-a181610dbfd0",
       "brand": "Kia",
+      "type": "bev",
       "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
       "model": "e-Soul",
       "release_year": 2019,
@@ -1352,11 +1453,15 @@
           }
         ],
         "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 17.5
       }
     },
     {
       "id": "5335d545-cfeb-4bca-bb11-cf0966f1b5ca",
       "brand": "Mercedes Benz",
+      "type": "bev",
       "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
       "model": "EQC",
       "release_year": 2019,
@@ -1407,11 +1512,15 @@
           }
         ],
         "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 21.6
       }
     },
     {
       "id": "71cc8552-391f-49b0-b106-2202fa222161",
       "brand": "Mercedes Benz",
+      "type": "bev",
       "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
       "model": "B-Klasse",
       "release_year": null,
@@ -1434,11 +1543,15 @@
           "43": 11.0
         }
       },
-      "dc_charger": null
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 16.6
+      }
     },
     {
       "id": "2c7abcf4-0ba0-4feb-9e9b-b47661072feb",
       "brand": "Mitsubishi",
+      "type": "bev",
       "brand_id": "3cf8cf51-60ac-4cac-9f25-131c21eda12e",
       "model": "i-Miev",
       "release_year": null,
@@ -1481,11 +1594,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 12.9
       }
     },
     {
       "id": "1847e3aa-750c-4b12-a80a-56e792b3aadb",
       "brand": "Mitsubishi",
+      "type": "phev",
       "brand_id": "3cf8cf51-60ac-4cac-9f25-131c21eda12e",
       "model": "Outlander PHEV",
       "release_year": 2018,
@@ -1528,11 +1645,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 15.2
       }
     },
     {
       "id": "86290f48-f554-4db5-bd35-4a8b7828689a",
       "brand": "Nissan",
+      "type": "bev",
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
       "model": "e-NV 200",
       "release_year": null,
@@ -1575,11 +1696,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 20.0
       }
     },
     {
       "id": "2644bfd3-a593-4276-bb1f-c8965e33797e",
       "brand": "Nissan",
+      "type": "bev",
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
       "model": "e-NV 200",
       "release_year": null,
@@ -1622,11 +1747,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 20.0
       }
     },
     {
       "id": "daa3573d-60ea-4c7a-8048-79c575e3db4c",
       "brand": "Nissan",
+      "type": "bev",
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
       "model": "e-NV 200",
       "release_year": null,
@@ -1669,11 +1798,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 20.0
       }
     },
     {
       "id": "dc7d163b-29bc-45cf-8156-60eb3e3b1294",
       "brand": "Nissan",
+      "type": "bev",
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
       "model": "Leaf",
       "release_year": 2011,
@@ -1716,11 +1849,15 @@
           }
         ],
         "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.9
       }
     },
     {
       "id": "3b649ae3-935b-425b-b5d6-75c549b96d40",
       "brand": "Nissan",
+      "type": "bev",
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
       "model": "Leaf",
       "release_year": 2011,
@@ -1763,11 +1900,15 @@
           }
         ],
         "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.9
       }
     },
     {
       "id": "83ec0576-bfb8-400a-9af9-483b2684673c",
       "brand": "Nissan",
+      "type": "bev",
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
       "model": "Leaf",
       "release_year": 2015,
@@ -1814,11 +1955,15 @@
           }
         ],
         "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.5
       }
     },
     {
       "id": "74f2c3a5-f78f-459a-823a-dfc0a21e5aeb",
       "brand": "Nissan",
+      "type": "bev",
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
       "model": "Leaf",
       "release_year": 2015,
@@ -1865,11 +2010,15 @@
           }
         ],
         "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.5
       }
     },
     {
       "id": "77028f96-eb9b-4c65-b452-c92011b1fc1c",
       "brand": "Nissan",
+      "type": "bev",
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
       "model": "Leaf",
       "release_year": 2017,
@@ -1916,11 +2065,15 @@
           }
         ],
         "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.4
       }
     },
     {
       "id": "78b14a0f-5c62-4885-95ef-2e3f81197260",
       "brand": "Nissan",
+      "type": "bev",
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
       "model": "Leaf",
       "release_year": 2019,
@@ -1963,11 +2116,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 17.2
       }
     },
     {
       "id": "f33f0a4f-9b53-4e21-807b-f8b2ca4a24f6",
       "brand": "Opel",
+      "type": "bev",
       "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
       "model": "Ampera e",
       "release_year": 2017,
@@ -2010,11 +2167,15 @@
           }
         ],
         "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 17.3
       }
     },
     {
       "id": "7f4bf402-f8e2-47da-b456-30f1bdfce8ac",
       "brand": "Opel",
+      "type": "bev",
       "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
       "model": "Ampera e-Pionier",
       "release_year": 2012,
@@ -2037,11 +2198,15 @@
           "43": 2.2
         }
       },
-      "dc_charger": null
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 16.9
+      }
     },
     {
       "id": "28b61ff5-734a-412e-9241-dec4c27d1a38",
       "brand": "Peugeot",
+      "type": "bev",
       "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
       "model": "I-on",
       "release_year": null,
@@ -2084,11 +2249,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 12.9
       }
     },
     {
       "id": "9666138c-1d24-4fa8-9083-0ffba09ab1ef",
       "brand": "Renault",
+      "type": "bev",
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
       "model": "Zoe",
       "release_year": 2013,
@@ -2111,11 +2280,15 @@
           "43": 43.0
         }
       },
-      "dc_charger": null
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 15.5
+      }
     },
     {
       "id": "b3fd3e84-4dd4-4ac0-914f-3c3c582fc600",
       "brand": "Renault",
+      "type": "bev",
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
       "model": "Zoe",
       "release_year": 2015,
@@ -2138,11 +2311,15 @@
           "43": 22.0
         }
       },
-      "dc_charger": null
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 15.5
+      }
     },
     {
       "id": "737441e8-6b5f-4185-9b0b-e51585ab6ea8",
       "brand": "Renault",
+      "type": "bev",
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
       "model": "Zoe",
       "release_year": 2017,
@@ -2165,11 +2342,15 @@
           "43": 22.0
         }
       },
-      "dc_charger": null
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 16.1
+      }
     },
     {
       "id": "e604a056-9338-4044-93dd-5a595d4a3ef3",
       "brand": "Renault",
+      "type": "bev",
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
       "model": "Zoe",
       "release_year": 2017,
@@ -2192,11 +2373,15 @@
           "43": 30.0
         }
       },
-      "dc_charger": null
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 16.4
+      }
     },
     {
       "id": "de3a8751-00c9-46d1-9e7a-ad830835c6a7",
       "brand": "Renault",
+      "type": "bev",
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
       "model": "Zoe",
       "release_year": 2019,
@@ -2239,11 +2424,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 16.5
       }
     },
     {
       "id": "1c13fba9-2c09-4be1-b5c6-aecd2b253afb",
       "brand": "Renault",
+      "type": "bev",
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
       "model": "Kangoo ZE",
       "release_year": null,
@@ -2266,11 +2455,15 @@
           "43": 7.2
         }
       },
-      "dc_charger": null
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 19.4
+      }
     },
     {
       "id": "8f6db2f5-1dd9-46f6-bb97-eba419dbaea4",
       "brand": "Renault",
+      "type": "bev",
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
       "model": "Twizy",
       "release_year": null,
@@ -2293,11 +2486,15 @@
           "43": 3.6
         }
       },
-      "dc_charger": null
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 8.4
+      }
     },
     {
       "id": "785c65be-3122-44ad-b574-9291c0793c37",
       "brand": "smart",
+      "type": "bev",
       "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
       "model": "fortwo ED",
       "release_year": null,
@@ -2320,11 +2517,15 @@
           "43": 3.6
         }
       },
-      "dc_charger": null
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 16.7
+      }
     },
     {
       "id": "e3525b59-d3b9-4eef-9a01-1408358c5534",
       "brand": "smart",
+      "type": "bev",
       "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
       "model": "fortwo ED",
       "release_year": null,
@@ -2347,11 +2548,15 @@
           "43": 22.0
         }
       },
-      "dc_charger": null
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 16.7
+      }
     },
     {
       "id": "1d43c981-02be-4d41-a34b-65a40ff25f7b",
       "brand": "smart",
+      "type": "bev",
       "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
       "model": "fortwo EQ",
       "release_year": null,
@@ -2374,11 +2579,15 @@
           "43": 3.6
         }
       },
-      "dc_charger": null
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 16.7
+      }
     },
     {
       "id": "f0b185de-9b9d-4a08-924f-450c4dadc7a6",
       "brand": "smart",
+      "type": "bev",
       "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
       "model": "fortwo EQ",
       "release_year": null,
@@ -2401,11 +2610,15 @@
           "43": 22.0
         }
       },
-      "dc_charger": null
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 16.7
+      }
     },
     {
       "id": "6a3a76f6-a0d0-41ff-afc9-5ad2f0879b4d",
       "brand": "smart",
+      "type": "bev",
       "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
       "model": "forfour EQ",
       "release_year": null,
@@ -2428,11 +2641,15 @@
           "43": 3.6
         }
       },
-      "dc_charger": null
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 17.6
+      }
     },
     {
       "id": "805b5810-074c-449b-ad19-d6c852ebf8f6",
       "brand": "smart",
+      "type": "bev",
       "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
       "model": "forfour EQ",
       "release_year": null,
@@ -2455,11 +2672,15 @@
           "43": 22.0
         }
       },
-      "dc_charger": null
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 17.6
+      }
     },
     {
       "id": "93c82e06-1aa3-4c19-8f81-b9fac0c598c3",
       "brand": "Tesla",
+      "type": "bev",
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
       "model": "Model 3",
       "release_year": null,
@@ -2507,11 +2728,15 @@
           }
         ],
         "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 15.3
       }
     },
     {
       "id": "7de25a64-e9fa-484f-bf99-d02b02cfb17d",
       "brand": "Tesla",
+      "type": "bev",
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
       "model": "Model 3",
       "release_year": null,
@@ -2559,11 +2784,15 @@
           }
         ],
         "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.1
       }
     },
     {
       "id": "80e7ef22-27f8-4e93-8c86-7a6a0a227e5d",
       "brand": "Tesla",
+      "type": "bev",
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
       "model": "Model S",
       "release_year": null,
@@ -2608,11 +2837,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 18.5
       }
     },
     {
       "id": "ed3fe177-d852-49bd-84ca-8ecd8d7ec3b1",
       "brand": "Tesla",
+      "type": "bev",
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
       "model": "Model S",
       "release_year": null,
@@ -2657,11 +2890,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 18.5
       }
     },
     {
       "id": "7f709186-39c3-420f-9caf-1fdb424f7953",
       "brand": "Tesla",
+      "type": "bev",
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
       "model": "Model S",
       "release_year": null,
@@ -2706,11 +2943,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 18.5
       }
     },
     {
       "id": "0a663bbf-3b87-4e7a-bd7a-3e9c39961a2b",
       "brand": "Tesla",
+      "type": "bev",
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
       "model": "Model S",
       "release_year": null,
@@ -2759,11 +3000,15 @@
           }
         ],
         "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 19.1
       }
     },
     {
       "id": "32922583-e434-4ed2-afc1-4d8fde67aeda",
       "brand": "Tesla",
+      "type": "bev",
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
       "model": "Model S",
       "release_year": null,
@@ -2812,11 +3057,15 @@
           }
         ],
         "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 18.2
       }
     },
     {
       "id": "b5aa307e-a6b9-46e7-939e-2dd525870c13",
       "brand": "Tesla",
+      "type": "bev",
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
       "model": "Model S",
       "release_year": null,
@@ -2865,11 +3114,15 @@
           }
         ],
         "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 18.4
       }
     },
     {
       "id": "355eadbb-0c97-4a66-993d-8fdc61a77ef5",
       "brand": "Tesla",
+      "type": "bev",
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
       "model": "Model X",
       "release_year": 2015,
@@ -2918,11 +3171,15 @@
           }
         ],
         "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 20.8
       }
     },
     {
       "id": "f1b46b0a-b101-4072-a246-0b52f0cc51f5",
       "brand": "Volkswagen",
+      "type": "bev",
       "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
       "model": "e-Golf",
       "release_year": 2014,
@@ -2973,11 +3230,15 @@
           }
         ],
         "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 15.8
       }
     },
     {
       "id": "f0132135-9415-4403-818b-cee07f81ceb2",
       "brand": "Volkswagen",
+      "type": "bev",
       "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
       "model": "e-Golf",
       "release_year": 2017,
@@ -3024,11 +3285,15 @@
           }
         ],
         "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.4
       }
     },
     {
       "id": "a0347619-a7fe-4dd2-be4e-3ef615783481",
       "brand": "Volkswagen",
+      "type": "bev",
       "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
       "model": "e-up",
       "release_year": 2013,
@@ -3079,11 +3344,15 @@
           }
         ],
         "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.8
       }
     },
     {
       "id": "fda95cb7-d391-4344-851e-a1b5a548b42b",
       "brand": "Volkswagen",
+      "type": "bev",
       "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
       "model": "e-Golf",
       "release_year": 2014,
@@ -3106,11 +3375,15 @@
           "43": 3.6
         }
       },
-      "dc_charger": null
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 15.8
+      }
     },
     {
       "id": "bad55b90-4b4f-4760-83ea-fa96280e7310",
       "brand": "Volkswagen",
+      "type": "bev",
       "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
       "model": "e-Golf",
       "release_year": 2017,
@@ -3133,11 +3406,15 @@
           "43": 7.2
         }
       },
-      "dc_charger": null
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 16.4
+      }
     },
     {
       "id": "bcd8700d-241c-43a1-b9df-24ee310ea8e4",
       "brand": "Volkswagen",
+      "type": "bev",
       "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
       "model": "e-up",
       "release_year": 2013,
@@ -3160,11 +3437,15 @@
           "43": 3.6
         }
       },
-      "dc_charger": null
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 16.8
+      }
     },
     {
       "id": "57184038-ae77-4540-9367-ccb98beb8cc3",
       "brand": "Volkswagen",
+      "type": "bev",
       "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
       "model": "e-up",
       "release_year": 2020,
@@ -3187,11 +3468,15 @@
           "43": 7.2
         }
       },
-      "dc_charger": null
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 16.6
+      }
     },
     {
       "id": "fc5b3c94-c0eb-4515-af3d-4a4106ffe29f",
       "brand": "Volkswagen",
+      "type": "bev",
       "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
       "model": "e-up",
       "release_year": 2020,
@@ -3238,11 +3523,15 @@
           }
         ],
         "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.6
       }
     },
     {
       "id": "0a7e79c1-ecd6-4639-bac1-9c9e49fec84c",
       "brand": "Volkswagen",
+      "type": "bev",
       "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
       "model": "ID.3",
       "release_year": 2020,
@@ -3285,11 +3574,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 16.4
       }
     },
     {
       "id": "d8044adf-2538-4d45-b2d8-2b2fd0951766",
       "brand": "Volkswagen",
+      "type": "bev",
       "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
       "model": "ID.3",
       "release_year": 2020,
@@ -3332,11 +3625,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 16.6
       }
     },
     {
       "id": "cb995cc3-84d9-4c87-89dc-f9dee7a47156",
       "brand": "Volkswagen",
+      "type": "bev",
       "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
       "model": "ID.3",
       "release_year": 2020,
@@ -3379,11 +3676,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 17.1
       }
     },
     {
       "id": "15023eb9-eba6-436e-ad98-2086f1cb31c4",
       "brand": "Volkswagen",
+      "type": "phev",
       "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
       "model": "Golf GTE",
       "release_year": 2017,
@@ -3406,11 +3707,15 @@
           "43": 3.7
         }
       },
-      "dc_charger": null
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 11.4
+      }
     },
     {
       "id": "ec3b0af7-67c6-400d-b3c2-aa2f3be24c8a",
       "brand": "Volkswagen",
+      "type": "phev",
       "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
       "model": "Passat GTE",
       "release_year": 2019,
@@ -3433,11 +3738,15 @@
           "43": 3.7
         }
       },
-      "dc_charger": null
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 16.2
+      }
     },
     {
       "id": "926efa33-4c55-43df-80f3-4b8d2d65a00a",
       "brand": "Peugeot",
+      "type": "bev",
       "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
       "model": "e-208",
       "release_year": 2020,
@@ -3480,11 +3789,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 16.1
       }
     },
     {
       "id": "de7bac96-33ed-44f2-964e-21a4878e9f00",
       "brand": "Peugeot",
+      "type": "bev",
       "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
       "model": "e-208",
       "release_year": 2020,
@@ -3527,11 +3840,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 16.1
       }
     },
     {
       "id": "72695d36-29c4-4726-8ca8-5333fb3f9865",
       "brand": "Peugeot",
+      "type": "bev",
       "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
       "model": "e-2008",
       "release_year": 2020,
@@ -3574,11 +3891,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 18.0
       }
     },
     {
       "id": "9d101a26-eaaa-4058-a251-5221b45ffd91",
       "brand": "Peugeot",
+      "type": "bev",
       "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
       "model": "e-2008",
       "release_year": 2020,
@@ -3621,11 +3942,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 18.0
       }
     },
     {
       "id": "e60a8ec6-a6dd-46ae-846a-35cb57f1d8e3",
       "brand": "Peugeot",
+      "type": "bev",
       "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
       "model": "Partner",
       "release_year": null,
@@ -3648,11 +3973,15 @@
           "43": 3.2
         }
       },
-      "dc_charger": null
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 20.5
+      }
     },
     {
       "id": "1cec7821-632f-4f17-8a58-644b6ab23f44",
       "brand": "Opel",
+      "type": "bev",
       "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
       "model": "Corsa-e",
       "release_year": 2020,
@@ -3695,11 +4024,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 16.4
       }
     },
     {
       "id": "6f96c616-e87a-4958-bbe7-b4278be00170",
       "brand": "Opel",
+      "type": "bev",
       "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
       "model": "Corsa-e",
       "release_year": 2020,
@@ -3742,11 +4075,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 16.4
       }
     },
     {
       "id": "e8773876-6036-4a6c-926e-5490aae58971",
       "brand": "Citroen",
+      "type": "bev",
       "brand_id": "3b3fc191-f4c3-45da-bc3b-21efbe1b264f",
       "model": "Berlingo Electric",
       "release_year": null,
@@ -3769,11 +4106,15 @@
           "43": 3.2
         }
       },
-      "dc_charger": null
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 17.7
+      }
     },
     {
       "id": "8cfce5f4-23b6-470a-87fa-a04095fe0334",
       "brand": "Mini",
+      "type": "phev",
       "brand_id": "6d9d9248-de4a-4b13-976b-4e9f6688b0b1",
       "model": "Countryman ALL4",
       "release_year": 2019,
@@ -3796,11 +4137,15 @@
           "43": 3.6
         }
       },
-      "dc_charger": null
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 13.2
+      }
     },
     {
       "id": "d8c11860-a582-4784-9e58-d29e94a67fc2",
       "brand": "Mini",
+      "type": "bev",
       "brand_id": "6d9d9248-de4a-4b13-976b-4e9f6688b0b1",
       "model": "Cooper SE",
       "release_year": 2020,
@@ -3843,11 +4188,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 16.1
       }
     },
     {
       "id": "5bfa9a87-7b35-4e3a-bd3f-dc2ac55e184b",
       "brand": "Honda",
+      "type": "bev",
       "brand_id": "9ca5e092-76e2-4868-afc1-c06abeedf81b",
       "model": "e",
       "release_year": 2020,
@@ -3890,11 +4239,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 16.0
       }
     },
     {
       "id": "4c04db3b-c493-4b90-9859-21b7304a4ffc",
       "brand": "Porsche",
+      "type": "bev",
       "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
       "model": "Taycan",
       "release_year": 2020,
@@ -3937,11 +4290,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 22.3
       }
     },
     {
       "id": "34b5ef32-efea-48fc-8386-3800d0b737f0",
       "brand": "Porsche",
+      "type": "bev",
       "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
       "model": "Taycan",
       "release_year": 2020,
@@ -3984,11 +4341,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 19.5
       }
     },
     {
       "id": "6990914a-6a0d-49d4-87f5-ee86ee33344c",
       "brand": "Porsche",
+      "type": "bev",
       "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
       "model": "Taycan",
       "release_year": 2020,
@@ -4031,11 +4392,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 19.7
       }
     },
     {
       "id": "a12f033f-f2c2-44bd-b62c-7019898a72d0",
       "brand": "Porsche",
+      "type": "bev",
       "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
       "model": "Taycan",
       "release_year": 2020,
@@ -4078,11 +4443,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 21.5
       }
     },
     {
       "id": "8b0195b6-5318-46d9-a6fd-1b5f75e8b495",
       "brand": "MG",
+      "type": "bev",
       "brand_id": "5663b87a-d940-4bab-9846-d74c8c0ae260",
       "model": "ZS EV",
       "release_year": 2020,
@@ -4125,11 +4494,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 19.8
       }
     },
     {
       "id": "2ae110f8-8906-4b03-b4bc-83e5577c1cc1",
       "brand": "SAIC",
+      "type": "bev",
       "brand_id": "171a1e6d-8cbc-41a9-a8bb-e05b7ee98889",
       "model": "Maxus EV80",
       "release_year": 2018,
@@ -4172,11 +4545,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 35.0
       }
     },
     {
       "id": "c9025ab4-1c85-40d8-86ab-ee406de3b716",
       "brand": "Polestar",
+      "type": "bev",
       "brand_id": "391f000f-d9d1-4c13-b744-95f0b9c8a2e1",
       "model": "2",
       "release_year": 2020,
@@ -4219,11 +4596,15 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 17.1
       }
     },
     {
       "id": "2eea1ef2-0fd1-481d-adee-68044666614e",
       "brand": "Seat",
+      "type": "bev",
       "brand_id": "91c527ff-aa74-4dbb-9091-36fb5ddd44b6",
       "model": "Mii Electric",
       "release_year": 2020,
@@ -4270,11 +4651,15 @@
           }
         ],
         "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.6
       }
     },
     {
       "id": "ffcd3116-4e17-49ff-a926-941c062643ea",
       "brand": "Skoda",
+      "type": "bev",
       "brand_id": "43763587-6999-406b-8843-28977e1b82c3",
       "model": "CITIGOe iV",
       "release_year": 2020,
@@ -4321,6 +4706,9 @@
           }
         ],
         "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.6
       }
     }
   ],
@@ -4427,7 +4815,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2020-06-04T16:30:48Z",
+    "updated_at": "2020-06-05T07:10:46Z",
     "overall_count": 97
   }
 }

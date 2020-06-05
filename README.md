@@ -13,10 +13,12 @@ At the moment mostly charging related data is available. Feel free to add more d
 
 * ID: Random UUID
 * Brand
+* Type (BEH, PHEV)
 * Model
 * Release Year: Mainly to distinquish models with the same name.
 * Variant: Bigger battery, optional faster on-board charger etc.
 * Usable Battery Size: in kWh
+* Average Energy Consumption
 * AC Charger: Details about the on-board charger.
   * Usable Phases: No. of usable phases for AC charging. Allowed values: 1,2,3
   * Ports: Allowed values: `type1`, `type2`
