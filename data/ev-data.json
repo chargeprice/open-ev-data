@@ -4718,7 +4718,7 @@
       "brand_id": "37bfdacf-1aca-4eb7-8daa-8dc5b14c59e9",
       "model": "3 Crossback E-Tense",
       "release_year": 2020,
-      "variant": "",
+      "variant": "7,2 kW-AC",
       "usable_battery_size": 46.0,
       "ac_charger": {
         "usable_phases": 1,
@@ -4769,10 +4769,10 @@
       "brand_id": "37bfdacf-1aca-4eb7-8daa-8dc5b14c59e9",
       "model": "3 Crossback E-Tense",
       "release_year": 2020,
-      "variant": "",
+      "variant": "11 kW-AC",
       "usable_battery_size": 46.0,
       "ac_charger": {
-        "usable_phases": 1,
+        "usable_phases": 3,
         "ports": [
           "type2"
         ],
@@ -4782,10 +4782,10 @@
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4,
-          "11": 3.7,
-          "16": 5.4,
-          "22": 7.4,
-          "43": 7.4
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
         }
       },
       "dc_charger": {
@@ -4921,7 +4921,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2020-06-09T16:41:45Z",
+    "updated_at": "2020-06-09T16:46:42Z",
     "overall_count": 99
   }
 }
