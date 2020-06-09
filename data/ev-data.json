@@ -4710,6 +4710,108 @@
       "energy_consumption": {
         "average_consumption": 16.6
       }
+    },
+    {
+      "id": "3b5bb8d1-0f34-4c05-861c-45d19a8883b9",
+      "brand": "DS",
+      "type": "bev",
+      "brand_id": "37bfdacf-1aca-4eb7-8daa-8dc5b14c59e9",
+      "model": "3 Crossback E-Tense",
+      "release_year": 2020,
+      "variant": "",
+      "usable_battery_size": 46.0,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.4,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 3.7,
+          "16": 5.4,
+          "22": 7.4,
+          "43": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 95
+          },
+          {
+            "percentage": 75,
+            "power": 100.0
+          },
+          {
+            "percentage": 100,
+            "power": 7.4
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 18.4
+      }
+    },
+    {
+      "id": "430ca2cd-bd4b-482a-8776-85a8c7d3435c",
+      "brand": "DS",
+      "type": "bev",
+      "brand_id": "37bfdacf-1aca-4eb7-8daa-8dc5b14c59e9",
+      "model": "3 Crossback E-Tense",
+      "release_year": 2020,
+      "variant": "",
+      "usable_battery_size": 46.0,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 3.7,
+          "16": 5.4,
+          "22": 7.4,
+          "43": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 95
+          },
+          {
+            "percentage": 75,
+            "power": 100.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 18.4
+      }
     }
   ],
   "brands": [
@@ -4812,10 +4914,14 @@
     {
       "id": "91c527ff-aa74-4dbb-9091-36fb5ddd44b6",
       "name": "Seat"
+    },
+    {
+      "id": "37bfdacf-1aca-4eb7-8daa-8dc5b14c59e9",
+      "name": "DS"
     }
   ],
   "meta": {
-    "updated_at": "2020-06-05T07:10:46Z",
-    "overall_count": 97
+    "updated_at": "2020-06-09T16:41:45Z",
+    "overall_count": 99
   }
 }
