@@ -2379,14 +2379,14 @@
       }
     },
     {
-      "id": "de3a8751-00c9-46d1-9e7a-ad830835c6a7",
+      "id": "c53b5947-23a3-420c-9798-f3846732e41a",
       "brand": "Renault",
       "type": "bev",
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
       "model": "Zoe",
       "release_year": 2019,
-      "variant": "ZE50",
-      "usable_battery_size": 52.0,
+      "variant": "R110 ZE 40",
+      "usable_battery_size": 41.0,
       "ac_charger": {
         "usable_phases": 3,
         "ports": [
@@ -2424,6 +2424,61 @@
           }
         ],
         "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 16.1
+      }
+    },
+    {
+      "id": "de3a8751-00c9-46d1-9e7a-ad830835c6a7",
+      "brand": "Renault",
+      "type": "bev",
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "model": "Zoe",
+      "release_year": 2019,
+      "variant": "ZE50",
+      "usable_battery_size": 52.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 22.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.100000000000001,
+          "16": 16.200000000000003,
+          "22": 22.0,
+          "43": 22.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 46,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 41
+          },
+          {
+            "percentage": 52,
+            "power": 46
+          },
+          {
+            "percentage": 80,
+            "power": 27
+          },
+          {
+            "percentage": 100,
+            "power": 22
+          }
+        ],
+        "is_default_charging_curve": false
       },
       "energy_consumption": {
         "average_consumption": 16.5
@@ -3120,14 +3175,71 @@
       }
     },
     {
-      "id": "355eadbb-0c97-4a66-993d-8fdc61a77ef5",
+      "id": "d03d6e42-d6f8-4e3f-b527-a3c1d1e40f9d",
       "brand": "Tesla",
       "type": "bev",
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
       "model": "Model X",
-      "release_year": 2015,
-      "variant": "",
-      "usable_battery_size": 95.0,
+      "release_year": 2016,
+      "variant": "90D",
+      "usable_battery_size": 90.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs",
+          "chademo",
+          "tesla_suc"
+        ],
+        "max_power": 140,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 125
+          },
+          {
+            "percentage": 43,
+            "power": 140
+          },
+          {
+            "percentage": 80,
+            "power": 37
+          },
+          {
+            "percentage": 100,
+            "power": 12
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 20.0
+      }
+    },
+    {
+      "id": "0aa5220a-6da7-4dc0-a0a1-714bea4fded3",
+      "brand": "Tesla",
+      "type": "bev",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "model": "Model X",
+      "release_year": 2017,
+      "variant": "P100D",
+      "usable_battery_size": 100.0,
       "ac_charger": {
         "usable_phases": 3,
         "ports": [
@@ -3173,7 +3285,406 @@
         "is_default_charging_curve": false
       },
       "energy_consumption": {
-        "average_consumption": 20.8
+        "average_consumption": 22.0
+      }
+    },
+    {
+      "id": "908e578f-f890-4716-93e8-7c0f75e46bb5",
+      "brand": "Tesla",
+      "type": "bev",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "model": "Model X",
+      "release_year": 2016,
+      "variant": "P90D",
+      "usable_battery_size": 90.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs",
+          "chademo",
+          "tesla_suc"
+        ],
+        "max_power": 140,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 125
+          },
+          {
+            "percentage": 43,
+            "power": 140
+          },
+          {
+            "percentage": 80,
+            "power": 37
+          },
+          {
+            "percentage": 100,
+            "power": 12
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 21.0
+      }
+    },
+    {
+      "id": "355eadbb-0c97-4a66-993d-8fdc61a77ef5",
+      "brand": "Tesla",
+      "type": "bev",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "model": "Model X",
+      "release_year": 2019,
+      "variant": "Performance",
+      "usable_battery_size": 100.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 16.5,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.100000000000001,
+          "16": 16.200000000000003,
+          "22": 16.5,
+          "43": 16.5
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs",
+          "chademo",
+          "tesla_suc"
+        ],
+        "max_power": 140,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 125
+          },
+          {
+            "percentage": 43,
+            "power": 140
+          },
+          {
+            "percentage": 80,
+            "power": 37
+          },
+          {
+            "percentage": 100,
+            "power": 12
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 22.0
+      }
+    },
+    {
+      "id": "7490520f-fe11-4148-a9b6-3882f06ee082",
+      "brand": "Tesla",
+      "type": "bev",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "model": "Model X",
+      "release_year": 2017,
+      "variant": "100D",
+      "usable_battery_size": 100.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 16.5,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.100000000000001,
+          "16": 16.200000000000003,
+          "22": 16.5,
+          "43": 16.5
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs",
+          "chademo",
+          "tesla_suc"
+        ],
+        "max_power": 140,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 125
+          },
+          {
+            "percentage": 43,
+            "power": 140
+          },
+          {
+            "percentage": 80,
+            "power": 37
+          },
+          {
+            "percentage": 100,
+            "power": 12
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 20.0
+      }
+    },
+    {
+      "id": "eb8d28ec-8df7-40a8-8dd7-badf738f0832",
+      "brand": "Tesla",
+      "type": "bev",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "model": "Model X",
+      "release_year": 2019,
+      "variant": "Maximum Range",
+      "usable_battery_size": 100.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 16.5,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.100000000000001,
+          "16": 16.200000000000003,
+          "22": 16.5,
+          "43": 16.5
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs",
+          "chademo",
+          "tesla_suc"
+        ],
+        "max_power": 140,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 125
+          },
+          {
+            "percentage": 43,
+            "power": 140
+          },
+          {
+            "percentage": 80,
+            "power": 37
+          },
+          {
+            "percentage": 100,
+            "power": 12
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 20.0
+      }
+    },
+    {
+      "id": "b7c4ddb8-4806-4328-a4e6-4abb4746016d",
+      "brand": "Tesla",
+      "type": "bev",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "model": "Model X",
+      "release_year": 2019,
+      "variant": "Standard Range",
+      "usable_battery_size": 75.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 16.5,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.100000000000001,
+          "16": 16.200000000000003,
+          "22": 16.5,
+          "43": 16.5
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs",
+          "chademo",
+          "tesla_suc"
+        ],
+        "max_power": 140,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 125
+          },
+          {
+            "percentage": 43,
+            "power": 140
+          },
+          {
+            "percentage": 80,
+            "power": 37
+          },
+          {
+            "percentage": 100,
+            "power": 12
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 20.0
+      }
+    },
+    {
+      "id": "1b3105fa-527a-491f-ac26-5bfa94bfa45d",
+      "brand": "Tesla",
+      "type": "bev",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "model": "Model X",
+      "release_year": 2019,
+      "variant": "75D",
+      "usable_battery_size": 75.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 16.5,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.100000000000001,
+          "16": 16.200000000000003,
+          "22": 16.5,
+          "43": 16.5
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs",
+          "chademo",
+          "tesla_suc"
+        ],
+        "max_power": 140,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 125
+          },
+          {
+            "percentage": 43,
+            "power": 140
+          },
+          {
+            "percentage": 80,
+            "power": 37
+          },
+          {
+            "percentage": 100,
+            "power": 12
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 20.0
+      }
+    },
+    {
+      "id": "92ffd46c-fe26-4805-81ba-fbadce4d524f",
+      "brand": "Tesla",
+      "type": "bev",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "model": "Model X",
+      "release_year": 2016,
+      "variant": "60D",
+      "usable_battery_size": 60.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs",
+          "chademo",
+          "tesla_suc"
+        ],
+        "max_power": 140,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 125
+          },
+          {
+            "percentage": 43,
+            "power": 140
+          },
+          {
+            "percentage": 80,
+            "power": 37
+          },
+          {
+            "percentage": 100,
+            "power": 12
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.0
       }
     },
     {
@@ -4812,6 +5323,274 @@
       "energy_consumption": {
         "average_consumption": 18.4
       }
+    },
+    {
+      "id": "6033b26c-1b3c-441b-9f78-7b7cd5512051",
+      "brand": "Airways",
+      "type": "bev",
+      "brand_id": "a43d2607-eead-46c2-9fd5-2ebd3c49d895",
+      "model": "U5",
+      "release_year": 2020,
+      "variant": "",
+      "usable_battery_size": 63.0,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 6.6,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 6.6,
+          "11": 3.7,
+          "16": 5.4,
+          "22": 6.6,
+          "43": 6.6
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 95
+          },
+          {
+            "percentage": 75,
+            "power": 100.0
+          },
+          {
+            "percentage": 100,
+            "power": 6.6
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 18.8
+      }
+    },
+    {
+      "id": "d97748b1-e384-4238-a225-d498bccd902c",
+      "brand": "Artega",
+      "type": "bev",
+      "brand_id": "97d0d03a-63c6-4f33-99d7-6e944f71d7c5",
+      "model": "Karo",
+      "release_year": 2020,
+      "variant": "Range",
+      "usable_battery_size": 8.0,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 4.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 4.0,
+          "11": 3.7,
+          "16": 4.0,
+          "22": 4.0,
+          "43": 4.0
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 6.4
+      }
+    },
+    {
+      "id": "1c9126d4-24d6-4e9f-a49d-15813fa49728",
+      "brand": "Artega",
+      "type": "bev",
+      "brand_id": "97d0d03a-63c6-4f33-99d7-6e944f71d7c5",
+      "model": "Karo",
+      "release_year": 2020,
+      "variant": "Range Plus",
+      "usable_battery_size": 14.4,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 4.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 4.0,
+          "11": 3.7,
+          "16": 4.0,
+          "22": 4.0,
+          "43": 4.0
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 7.2
+      }
+    },
+    {
+      "id": "98aacbc9-5a97-4fe4-abcf-4f7bb2910a9f",
+      "brand": "e.GO Mobile",
+      "type": "bev",
+      "brand_id": "771bb157-23a2-4917-908c-810d241718d5",
+      "model": "Life 60",
+      "release_year": 2019,
+      "variant": "",
+      "usable_battery_size": 21.0,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.6,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.6,
+          "7.4": 3.6,
+          "11": 3.6,
+          "16": 3.6,
+          "22": 3.6,
+          "43": 3.6
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 15.5
+      }
+    },
+    {
+      "id": "4f408d10-82c3-4850-ae2b-141f21d745b3",
+      "brand": "e.GO Mobile",
+      "type": "bev",
+      "brand_id": "771bb157-23a2-4917-908c-810d241718d5",
+      "model": "Life 40",
+      "release_year": 2019,
+      "variant": "",
+      "usable_battery_size": 17.5,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.6,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.6,
+          "7.4": 3.6,
+          "11": 3.6,
+          "16": 3.6,
+          "22": 3.6,
+          "43": 3.6
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 15.5
+      }
+    },
+    {
+      "id": "975b064b-626e-4318-b60c-3ce0729743fd",
+      "brand": "e.GO Mobile",
+      "type": "bev",
+      "brand_id": "771bb157-23a2-4917-908c-810d241718d5",
+      "model": "Life 20",
+      "release_year": 2019,
+      "variant": "",
+      "usable_battery_size": 14.5,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.6,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.6,
+          "7.4": 3.6,
+          "11": 3.6,
+          "16": 3.6,
+          "22": 3.6,
+          "43": 3.6
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 15.5
+      }
+    },
+    {
+      "id": "ac812f08-3c8a-4af5-a07a-b520ec9e16cc",
+      "brand": "Volvo",
+      "type": "phev",
+      "brand_id": "2e55ea02-c829-4256-94fd-ffc971a1dd8e",
+      "model": "XC 60 T8",
+      "release_year": 2018,
+      "variant": "",
+      "usable_battery_size": 10.4,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.7,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 3.7,
+          "11": 3.7,
+          "16": 3.7,
+          "22": 3.7,
+          "43": 3.7
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 24.5
+      }
+    },
+    {
+      "id": "4ea0fb0a-8d77-4a03-a147-5e962f8ea766",
+      "brand": "Ford",
+      "type": "phev",
+      "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
+      "model": "Kuga",
+      "release_year": 2020,
+      "variant": "PHEV",
+      "usable_battery_size": 14.4,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.7,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 3.7,
+          "11": 3.7,
+          "16": 3.7,
+          "22": 3.7,
+          "43": 3.7
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 19.0
+      }
     }
   ],
   "brands": [
@@ -4918,10 +5697,26 @@
     {
       "id": "37bfdacf-1aca-4eb7-8daa-8dc5b14c59e9",
       "name": "DS"
+    },
+    {
+      "id": "a43d2607-eead-46c2-9fd5-2ebd3c49d895",
+      "name": "Airways"
+    },
+    {
+      "id": "97d0d03a-63c6-4f33-99d7-6e944f71d7c5",
+      "name": "Artega"
+    },
+    {
+      "id": "771bb157-23a2-4917-908c-810d241718d5",
+      "name": "e.GO Mobile"
+    },
+    {
+      "id": "2e55ea02-c829-4256-94fd-ffc971a1dd8e",
+      "name": "Volvo"
     }
   ],
   "meta": {
-    "updated_at": "2020-06-09T16:46:42Z",
-    "overall_count": 99
+    "updated_at": "2020-07-03T11:45:55Z",
+    "overall_count": 116
   }
 }
