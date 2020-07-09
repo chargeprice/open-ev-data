@@ -781,6 +781,37 @@
       }
     },
     {
+      "id": "3667752d-17a5-4166-abaf-dcf227948bfd",
+      "brand": "Hyundai",
+      "type": "phev",
+      "brand_id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
+      "model": "Ioniq",
+      "release_year": 2016,
+      "variant": "PHEV",
+      "usable_battery_size": 8.9,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.7,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 3.7,
+          "11": 3.7,
+          "16": 3.7,
+          "22": 3.7,
+          "43": 3.7
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 15.4
+      }
+    },
+    {
       "id": "8df35b23-dcc6-4590-83c7-5578da4c4809",
       "brand": "Hyundai",
       "type": "bev",
@@ -1468,7 +1499,7 @@
       "variant": "",
       "usable_battery_size": 80.0,
       "ac_charger": {
-        "usable_phases": 1,
+        "usable_phases": 2,
         "ports": [
           "type2"
         ],
@@ -1478,8 +1509,8 @@
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4,
-          "11": 3.7,
-          "16": 5.4,
+          "11": 7.4,
+          "16": 7.4,
           "22": 7.4,
           "43": 7.4
         }
@@ -5716,7 +5747,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2020-07-03T11:45:55Z",
-    "overall_count": 116
+    "updated_at": "2020-07-09T18:25:13Z",
+    "overall_count": 117
   }
 }
