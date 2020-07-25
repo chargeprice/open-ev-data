@@ -5622,6 +5622,57 @@
       "energy_consumption": {
         "average_consumption": 19.0
       }
+    },
+    {
+      "id": "176af738-f385-4dc8-9243-9c701fbd7759",
+      "brand": "Mazda",
+      "type": "bev",
+      "brand_id": "9b829849-1219-48b8-964e-90ddc1a4fa85",
+      "model": "MX-30",
+      "release_year": 2020,
+      "variant": "",
+      "usable_battery_size": 32.0,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 6.6,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 6.6,
+          "11": 3.7,
+          "16": 5.4,
+          "22": 6.6,
+          "43": 6.6
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 50.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 47
+          },
+          {
+            "percentage": 75,
+            "power": 50.0
+          },
+          {
+            "percentage": 100,
+            "power": 6.6
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 17.8
+      }
     }
   ],
   "brands": [
@@ -5744,10 +5795,14 @@
     {
       "id": "2e55ea02-c829-4256-94fd-ffc971a1dd8e",
       "name": "Volvo"
+    },
+    {
+      "id": "9b829849-1219-48b8-964e-90ddc1a4fa85",
+      "name": "Mazda"
     }
   ],
   "meta": {
-    "updated_at": "2020-07-09T18:25:13Z",
-    "overall_count": 117
+    "updated_at": "2020-07-25T09:20:56Z",
+    "overall_count": 118
   }
 }
