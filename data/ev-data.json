@@ -5813,6 +5813,168 @@
       "energy_consumption": {
         "average_consumption": 17.8
       }
+    },
+    {
+      "id": "b8a76fa8-97f1-4f27-8f9f-80f26df230d1",
+      "brand": "Chevrolet",
+      "type": "bev",
+      "brand_id": "cbca5847-9b23-47d9-80d3-24fa9a8ca21a",
+      "model": "Bolt",
+      "release_year": 2017,
+      "variant": "60 kWh",
+      "usable_battery_size": 58.0,
+      "ac_charger": {
+        "usable_phases": 2,
+        "ports": [
+          "type1",
+          "type2"
+        ],
+        "max_power": 7.2,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.2,
+          "11": 7.2,
+          "16": 7.2,
+          "22": 7.2,
+          "43": 7.2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 55,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 55
+          },
+          {
+            "percentage": 56,
+            "power": 38
+          },
+          {
+            "percentage": 68,
+            "power": 24
+          },
+          {
+            "percentage": 85,
+            "power": 16
+          },
+          {
+            "percentage": 100,
+            "power": 0
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 12.9
+      }
+    },
+    {
+      "id": "7508892b-e7e7-42ba-9cca-57753426cd86",
+      "brand": "Chevrolet",
+      "type": "bev",
+      "brand_id": "cbca5847-9b23-47d9-80d3-24fa9a8ca21a",
+      "model": "Spark EV",
+      "release_year": 2013,
+      "variant": "21 kWh",
+      "usable_battery_size": 21.3,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type1"
+        ],
+        "max_power": 3.3,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.3,
+          "7.4": 3.3,
+          "11": 3.3,
+          "16": 3.3,
+          "22": 3.3,
+          "43": 3.3
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 50.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 47
+          },
+          {
+            "percentage": 75,
+            "power": 50.0
+          },
+          {
+            "percentage": 100,
+            "power": 3.3
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 16.0
+      }
+    },
+    {
+      "id": "6a4c5e58-d1cb-49ad-a1cf-c0025fb7246f",
+      "brand": "Chevrolet",
+      "type": "bev",
+      "brand_id": "cbca5847-9b23-47d9-80d3-24fa9a8ca21a",
+      "model": "Spark EV",
+      "release_year": 2015,
+      "variant": "19 kWh",
+      "usable_battery_size": 19.0,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type1"
+        ],
+        "max_power": 3.3,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.3,
+          "7.4": 3.3,
+          "11": 3.3,
+          "16": 3.3,
+          "22": 3.3,
+          "43": 3.3
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 50.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 47
+          },
+          {
+            "percentage": 75,
+            "power": 50.0
+          },
+          {
+            "percentage": 100,
+            "power": 3.3
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 14.0
+      }
     }
   ],
   "brands": [
@@ -5939,10 +6101,14 @@
     {
       "id": "9b829849-1219-48b8-964e-90ddc1a4fa85",
       "name": "Mazda"
+    },
+    {
+      "id": "cbca5847-9b23-47d9-80d3-24fa9a8ca21a",
+      "name": "Chevrolet"
     }
   ],
   "meta": {
-    "updated_at": "2020-07-30T07:53:19Z",
-    "overall_count": 118
+    "updated_at": "2020-08-01T13:12:04Z",
+    "overall_count": 121
   }
 }
