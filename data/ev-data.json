@@ -1541,7 +1541,7 @@
       }
     },
     {
-      "id": "",
+      "id": "87e73c44-93ba-4687-877c-32a3aa940a09",
       "brand": "Kia",
       "type": "bev",
       "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
@@ -6208,7 +6208,7 @@
       "ac_charger": {
         "usable_phases": 1,
         "ports": [
-          "type1"
+          "type2"
         ],
         "max_power": 3.7,
         "power_per_charging_point": {
@@ -6239,7 +6239,7 @@
       "ac_charger": {
         "usable_phases": 2,
         "ports": [
-          "type1"
+          "type2"
         ],
         "max_power": 7.4,
         "power_per_charging_point": {
@@ -6270,7 +6270,7 @@
       "ac_charger": {
         "usable_phases": 2,
         "ports": [
-          "type1"
+          "type2"
         ],
         "max_power": 7.4,
         "power_per_charging_point": {
@@ -6321,7 +6321,7 @@
       "ac_charger": {
         "usable_phases": 1,
         "ports": [
-          "type1"
+          "type2"
         ],
         "max_power": 7.4,
         "power_per_charging_point": {
@@ -6352,7 +6352,7 @@
       "ac_charger": {
         "usable_phases": 1,
         "ports": [
-          "type1"
+          "type2"
         ],
         "max_power": 3.3,
         "power_per_charging_point": {
@@ -6383,7 +6383,7 @@
       "ac_charger": {
         "usable_phases": 1,
         "ports": [
-          "type1"
+          "type2"
         ],
         "max_power": 3.3,
         "power_per_charging_point": {
@@ -6414,7 +6414,7 @@
       "ac_charger": {
         "usable_phases": 1,
         "ports": [
-          "type1"
+          "type2"
         ],
         "max_power": 3.3,
         "power_per_charging_point": {
@@ -6445,7 +6445,7 @@
       "ac_charger": {
         "usable_phases": 1,
         "ports": [
-          "type1"
+          "type2"
         ],
         "max_power": 3.0,
         "power_per_charging_point": {
@@ -6476,7 +6476,7 @@
       "ac_charger": {
         "usable_phases": 1,
         "ports": [
-          "type1"
+          "type2"
         ],
         "max_power": 7.4,
         "power_per_charging_point": {
@@ -6507,7 +6507,7 @@
       "ac_charger": {
         "usable_phases": 1,
         "ports": [
-          "type1"
+          "type2"
         ],
         "max_power": 3.6,
         "power_per_charging_point": {
@@ -6658,7 +6658,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2020-08-23T09:00:03Z",
+    "updated_at": "2020-08-23T09:44:31Z",
     "overall_count": 136
   }
 }
