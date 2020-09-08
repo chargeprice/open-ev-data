@@ -5655,7 +5655,7 @@
     },
     {
       "id": "6033b26c-1b3c-441b-9f78-7b7cd5512051",
-      "brand": "Airways",
+      "brand": "Aiways",
       "type": "bev",
       "brand_id": "a43d2607-eead-46c2-9fd5-2ebd3c49d895",
       "model": "U5",
@@ -6634,7 +6634,7 @@
     },
     {
       "id": "a43d2607-eead-46c2-9fd5-2ebd3c49d895",
-      "name": "Airways"
+      "name": "Aiways"
     },
     {
       "id": "97d0d03a-63c6-4f33-99d7-6e944f71d7c5",
@@ -6658,7 +6658,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2020-08-23T09:44:31Z",
+    "updated_at": "2020-09-08T19:13:15Z",
     "overall_count": 136
   }
 }
