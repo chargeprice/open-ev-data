@@ -5341,10 +5341,10 @@
     },
     {
       "id": "2ae110f8-8906-4b03-b4bc-83e5577c1cc1",
-      "brand": "SAIC",
+      "brand": "Maxus",
       "type": "bev",
       "brand_id": "171a1e6d-8cbc-41a9-a8bb-e05b7ee98889",
-      "model": "Maxus EV80",
+      "model": "EV80",
       "release_year": 2018,
       "variant": "",
       "usable_battery_size": 56.0,
@@ -6614,7 +6614,7 @@
     },
     {
       "id": "171a1e6d-8cbc-41a9-a8bb-e05b7ee98889",
-      "name": "SAIC"
+      "name": "Maxus"
     },
     {
       "id": "391f000f-d9d1-4c13-b744-95f0b9c8a2e1",
@@ -6658,7 +6658,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2020-09-08T19:13:15Z",
+    "updated_at": "2020-10-02T06:58:43Z",
     "overall_count": 136
   }
 }
