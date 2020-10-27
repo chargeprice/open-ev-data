@@ -512,7 +512,7 @@
       "type": "bev",
       "brand_id": "3291e5ba-862c-49fa-8437-71105743875e",
       "model": "500e",
-      "release_year": null,
+      "release_year": 2014,
       "variant": "",
       "usable_battery_size": 19.2,
       "ac_charger": {
@@ -535,6 +535,57 @@
       "dc_charger": null,
       "energy_consumption": {
         "average_consumption": 18.0
+      }
+    },
+    {
+      "id": "22f521ce-42ca-40d7-bfdb-5d33b1bd9cbe",
+      "brand": "Fiat",
+      "type": "bev",
+      "brand_id": "3291e5ba-862c-49fa-8437-71105743875e",
+      "model": "500e",
+      "release_year": 2020,
+      "variant": "",
+      "usable_battery_size": 42.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 85.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 80
+          },
+          {
+            "percentage": 75,
+            "power": 85.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 16.8
       }
     },
     {
@@ -6525,6 +6576,312 @@
       "energy_consumption": {
         "average_consumption": 14.0
       }
+    },
+    {
+      "id": "ff261470-8556-4051-afec-c049abd5fe6a",
+      "brand": "Skoda",
+      "type": "bev",
+      "brand_id": "43763587-6999-406b-8843-28977e1b82c3",
+      "model": "Enyaq iV",
+      "release_year": 2020,
+      "variant": "55 kWh",
+      "usable_battery_size": 52.0,
+      "ac_charger": {
+        "usable_phases": 2,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.2,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.2,
+          "11": 7.2,
+          "16": 7.2,
+          "22": 7.2,
+          "43": 7.2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 50.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 47
+          },
+          {
+            "percentage": 75,
+            "power": 50.0
+          },
+          {
+            "percentage": 100,
+            "power": 7.2
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 18.7
+      }
+    },
+    {
+      "id": "4dc6b014-8612-4fa7-bb34-9ea4d7fa5220",
+      "brand": "Skoda",
+      "type": "bev",
+      "brand_id": "43763587-6999-406b-8843-28977e1b82c3",
+      "model": "Enyaq iV",
+      "release_year": 2020,
+      "variant": "62 kWh 50 kW-DC",
+      "usable_battery_size": 58.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 50.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 47
+          },
+          {
+            "percentage": 75,
+            "power": 50.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 18.7
+      }
+    },
+    {
+      "id": "55ac0aaf-6bae-4a8e-ba50-4a9a7ab5b4af",
+      "brand": "Skoda",
+      "type": "bev",
+      "brand_id": "43763587-6999-406b-8843-28977e1b82c3",
+      "model": "Enyaq iV",
+      "release_year": 2020,
+      "variant": "62 kWh 100 kW-DC",
+      "usable_battery_size": 58.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 95
+          },
+          {
+            "percentage": 75,
+            "power": 100.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 18.7
+      }
+    },
+    {
+      "id": "18bb40bd-321b-4326-a404-e46652538830",
+      "brand": "Skoda",
+      "type": "bev",
+      "brand_id": "43763587-6999-406b-8843-28977e1b82c3",
+      "model": "Enyaq iV",
+      "release_year": 2020,
+      "variant": "82 kWh 50 kW-DC",
+      "usable_battery_size": 77.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 50.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 47
+          },
+          {
+            "percentage": 75,
+            "power": 50.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 19.0
+      }
+    },
+    {
+      "id": "aa69b5e8-fc4e-40f8-8060-2c96248f62ef",
+      "brand": "Skoda",
+      "type": "bev",
+      "brand_id": "43763587-6999-406b-8843-28977e1b82c3",
+      "model": "Enyaq iV",
+      "release_year": 2020,
+      "variant": "82 kWh 125 kW-DC",
+      "usable_battery_size": 77.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 125.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 118
+          },
+          {
+            "percentage": 75,
+            "power": 125.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 19.0
+      }
+    },
+    {
+      "id": "8b51a06f-676a-46aa-9074-4d3364ea1cca",
+      "brand": "Mercedes Benz",
+      "type": "phev",
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "model": "GLE",
+      "release_year": 2020,
+      "variant": "350 de/e",
+      "usable_battery_size": 31.2,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.4,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 3.7,
+          "16": 5.4,
+          "22": 7.4,
+          "43": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 60.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 57
+          },
+          {
+            "percentage": 75,
+            "power": 60.0
+          },
+          {
+            "percentage": 100,
+            "power": 7.4
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 31.2
+      }
     }
   ],
   "brands": [
@@ -6658,7 +7015,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2020-10-02T06:58:43Z",
-    "overall_count": 136
+    "updated_at": "2020-10-27T19:15:56Z",
+    "overall_count": 143
   }
 }
