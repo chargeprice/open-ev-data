@@ -7120,7 +7120,7 @@
             "power": 99
           },
           {
-            "percentage": 95,
+            "percentage": 100,
             "power": 18
           }
         ],
@@ -7177,7 +7177,7 @@
             "power": 99
           },
           {
-            "percentage": 95,
+            "percentage": 100,
             "power": 18
           }
         ],
@@ -7611,7 +7611,7 @@
             "power": 59
           },
           {
-            "percentage": 95,
+            "percentage": 100,
             "power": 27
           }
         ],
@@ -7943,7 +7943,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2020-11-30T19:17:47Z",
+    "updated_at": "2020-11-30T19:22:13Z",
     "overall_count": 163
   }
 }
