@@ -7938,7 +7938,7 @@
             "power": 36
           },
           {
-            "percentage": 95,
+            "percentage": 100,
             "power": 13
           }
         ],
@@ -7997,7 +7997,7 @@
             "power": 36
           },
           {
-            "percentage": 95,
+            "percentage": 100,
             "power": 13
           }
         ],
@@ -8056,7 +8056,7 @@
             "power": 73
           },
           {
-            "percentage": 95,
+            "percentage": 100,
             "power": 27
           }
         ],
@@ -8115,7 +8115,7 @@
             "power": 73
           },
           {
-            "percentage": 95,
+            "percentage": 100,
             "power": 27
           }
         ],
@@ -8174,7 +8174,7 @@
             "power": 73
           },
           {
-            "percentage": 95,
+            "percentage": 100,
             "power": 27
           }
         ],
@@ -8233,7 +8233,7 @@
             "power": 55
           },
           {
-            "percentage": 95,
+            "percentage": 100,
             "power": 13
           }
         ],
@@ -8747,7 +8747,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2020-12-07T20:21:08Z",
+    "updated_at": "2020-12-07T20:22:13Z",
     "overall_count": 178
   }
 }
