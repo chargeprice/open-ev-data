@@ -7806,6 +7806,810 @@
       "energy_consumption": {
         "average_consumption": 17.0
       }
+    },
+    {
+      "id": "46e4f46b-09d3-4beb-8649-f7a7f670bb45",
+      "brand": "Renault",
+      "type": "bev",
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "model": "Twingo Z.E.",
+      "release_year": 2020,
+      "variant": "22 kWh",
+      "usable_battery_size": 21.3,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 22.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.100000000000001,
+          "16": 16.200000000000003,
+          "22": 22.0,
+          "43": 22.0
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 16.3
+      }
+    },
+    {
+      "id": "5655021c-128f-49cf-970e-91b133335eec",
+      "brand": "Opel",
+      "type": "bev",
+      "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
+      "model": "Zafira e-life",
+      "release_year": 2021,
+      "variant": "Zafira-e Life 50 kWh",
+      "usable_battery_size": 46.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 95
+          },
+          {
+            "percentage": 75,
+            "power": 100.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 16.4
+      }
+    },
+    {
+      "id": "f44095b1-b4b0-430b-a88f-257a164d9dfd",
+      "brand": "Ford",
+      "type": "bev",
+      "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
+      "model": "Mustang Mach e",
+      "release_year": 2020,
+      "variant": "RWD 75,7 kWh",
+      "usable_battery_size": 70.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 113,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 113
+          },
+          {
+            "percentage": 30,
+            "power": 99
+          },
+          {
+            "percentage": 60,
+            "power": 77
+          },
+          {
+            "percentage": 85,
+            "power": 36
+          },
+          {
+            "percentage": 95,
+            "power": 13
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.5
+      }
+    },
+    {
+      "id": "b93051f8-a4c4-488f-9862-6c92a8ab7f11",
+      "brand": "Ford",
+      "type": "bev",
+      "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
+      "model": "Mustang Mach e",
+      "release_year": 2020,
+      "variant": "AWD 75,7 kWh",
+      "usable_battery_size": 70.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 113,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 113
+          },
+          {
+            "percentage": 30,
+            "power": 99
+          },
+          {
+            "percentage": 60,
+            "power": 77
+          },
+          {
+            "percentage": 85,
+            "power": 36
+          },
+          {
+            "percentage": 95,
+            "power": 13
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 17.9
+      }
+    },
+    {
+      "id": "b1aa6457-c0af-458d-96dc-178ad1977e47",
+      "brand": "Ford",
+      "type": "bev",
+      "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
+      "model": "Mustang Mach e",
+      "release_year": 2020,
+      "variant": "RWD 98,8 kWh",
+      "usable_battery_size": 88.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 148,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 148
+          },
+          {
+            "percentage": 35,
+            "power": 147
+          },
+          {
+            "percentage": 60,
+            "power": 118
+          },
+          {
+            "percentage": 80,
+            "power": 73
+          },
+          {
+            "percentage": 95,
+            "power": 27
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.5
+      }
+    },
+    {
+      "id": "4d84c2e6-2902-4086-aa87-f3852a42d15d",
+      "brand": "Ford",
+      "type": "bev",
+      "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
+      "model": "Mustang Mach e",
+      "release_year": 2020,
+      "variant": "AWD 98,8 kWh",
+      "usable_battery_size": 88.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 148,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 148
+          },
+          {
+            "percentage": 35,
+            "power": 147
+          },
+          {
+            "percentage": 60,
+            "power": 118
+          },
+          {
+            "percentage": 80,
+            "power": 73
+          },
+          {
+            "percentage": 95,
+            "power": 27
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 18.1
+      }
+    },
+    {
+      "id": "2a41f004-7fe8-4dfe-8e6c-57691c9b6283",
+      "brand": "Ford",
+      "type": "bev",
+      "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
+      "model": "Mustang Mach e",
+      "release_year": 2020,
+      "variant": "GT",
+      "usable_battery_size": 88.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 148,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 148
+          },
+          {
+            "percentage": 35,
+            "power": 147
+          },
+          {
+            "percentage": 60,
+            "power": 118
+          },
+          {
+            "percentage": 80,
+            "power": 73
+          },
+          {
+            "percentage": 95,
+            "power": 27
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 20.0
+      }
+    },
+    {
+      "id": "69d3b6cb-70a7-47a5-8e04-3a14d3576b36",
+      "brand": "Citroen",
+      "type": "bev",
+      "brand_id": "3b3fc191-f4c3-45da-bc3b-21efbe1b264f",
+      "model": "ë-C4",
+      "release_year": 2020,
+      "variant": "",
+      "usable_battery_size": 46.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 99,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 99
+          },
+          {
+            "percentage": 40,
+            "power": 95
+          },
+          {
+            "percentage": 60,
+            "power": 77
+          },
+          {
+            "percentage": 75,
+            "power": 55
+          },
+          {
+            "percentage": 95,
+            "power": 13
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 18.0
+      }
+    },
+    {
+      "id": "63cd9718-5737-4898-a4f4-e594b28c74c0",
+      "brand": "Kia",
+      "type": "bev",
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "model": "e-Niro",
+      "release_year": 2020,
+      "variant": "39 kWh 11 kW-AC",
+      "usable_battery_size": 39.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 50.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 47
+          },
+          {
+            "percentage": 75,
+            "power": 50.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 16.3
+      }
+    },
+    {
+      "id": "600a7816-ea65-4e6a-ac91-c5528b379028",
+      "brand": "Kia",
+      "type": "bev",
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "model": "e-Soul",
+      "release_year": 2019,
+      "variant": "39 kWh 11 kW-AC",
+      "usable_battery_size": 39.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 50.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 47
+          },
+          {
+            "percentage": 75,
+            "power": 50.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 17.0
+      }
+    },
+    {
+      "id": "6bbd3cdd-2b11-43cd-85b9-4556937f9f82",
+      "brand": "Mercedes Benz",
+      "type": "bev",
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "model": "EQV",
+      "release_year": 2020,
+      "variant": "300 Long\r",
+      "usable_battery_size": 90.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 27.3
+      }
+    },
+    {
+      "id": "3fc921eb-7a43-4b09-a819-73b9d5a5c14f",
+      "brand": "Volkswagen",
+      "type": "bev",
+      "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
+      "model": "e-Golf",
+      "release_year": 2020,
+      "variant": "",
+      "usable_battery_size": 31.5,
+      "ac_charger": {
+        "usable_phases": 2,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.2,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.2,
+          "11": 7.2,
+          "16": 7.2,
+          "22": 7.2,
+          "43": 7.2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 40,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 39
+          },
+          {
+            "percentage": 60,
+            "power": 40
+          },
+          {
+            "percentage": 80,
+            "power": 25
+          },
+          {
+            "percentage": 100,
+            "power": 6
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 15.3
+      }
+    },
+    {
+      "id": "6e66aeb0-7680-416c-912d-0cbbf38fc920",
+      "brand": "Tesla",
+      "type": "bev",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "model": "Model X",
+      "release_year": 2020,
+      "variant": "Standard Range",
+      "usable_battery_size": 72.5,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+
+        ],
+        "max_power": 16.5,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.100000000000001,
+          "16": 16.200000000000003,
+          "22": 16.5,
+          "43": 16.5
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "tesla_suc",
+          "tesla_ccs"
+        ],
+        "max_power": 148,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 148
+          },
+          {
+            "percentage": 35,
+            "power": 147
+          },
+          {
+            "percentage": 70,
+            "power": 98
+          },
+          {
+            "percentage": 90,
+            "power": 44
+          },
+          {
+            "percentage": 100,
+            "power": 10
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 21.6
+      }
+    },
+    {
+      "id": "2768baf4-08a8-4760-a2a6-8e39a11664a8",
+      "brand": "Tesla",
+      "type": "bev",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "model": "Model X",
+      "release_year": 2020,
+      "variant": "long range",
+      "usable_battery_size": 95.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+
+        ],
+        "max_power": 16.5,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.100000000000001,
+          "16": 16.200000000000003,
+          "22": 16.5,
+          "43": 16.5
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "tesla_suc",
+          "tesla_ccs"
+        ],
+        "max_power": 148,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 148
+          },
+          {
+            "percentage": 35,
+            "power": 147
+          },
+          {
+            "percentage": 70,
+            "power": 98
+          },
+          {
+            "percentage": 90,
+            "power": 44
+          },
+          {
+            "percentage": 100,
+            "power": 10
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 22.6
+      }
+    },
+    {
+      "id": "3d010bc6-84ad-480c-9dbb-5a8c7c0210b9",
+      "brand": "Tesla",
+      "type": "bev",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "model": "Model X",
+      "release_year": 2020,
+      "variant": "Performance",
+      "usable_battery_size": 95.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+
+        ],
+        "max_power": 16.5,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.100000000000001,
+          "16": 16.200000000000003,
+          "22": 16.5,
+          "43": 16.5
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "tesla_suc",
+          "tesla_ccs"
+        ],
+        "max_power": 148,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 148
+          },
+          {
+            "percentage": 35,
+            "power": 147
+          },
+          {
+            "percentage": 70,
+            "power": 98
+          },
+          {
+            "percentage": 90,
+            "power": 44
+          },
+          {
+            "percentage": 100,
+            "power": 10
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 23.6
+      }
     }
   ],
   "brands": [
@@ -7943,7 +8747,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2020-11-30T19:22:13Z",
-    "overall_count": 163
+    "updated_at": "2020-12-07T20:21:08Z",
+    "overall_count": 178
   }
 }
