@@ -8610,6 +8610,366 @@
       "energy_consumption": {
         "average_consumption": 23.6
       }
+    },
+    {
+      "id": "cf9d35a6-8c61-44da-97fc-e1212b0f8fbd",
+      "brand": "BMW",
+      "type": "bev",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "iX3",
+      "release_year": 2020,
+      "variant": "",
+      "usable_battery_size": 74.0,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.4,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 3.7,
+          "16": 5.4,
+          "22": 7.4,
+          "43": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 148,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 148
+          },
+          {
+            "percentage": 35,
+            "power": 147
+          },
+          {
+            "percentage": 60,
+            "power": 118
+          },
+          {
+            "percentage": 75,
+            "power": 86
+          },
+          {
+            "percentage": 90,
+            "power": 44
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 18.5
+      }
+    },
+    {
+      "id": "5ca66d3a-8a33-48f5-a0b9-d8bbf25a6e24",
+      "brand": "Mercedes Benz",
+      "type": "bev",
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "model": "eVito",
+      "release_year": 2019,
+      "variant": "Tourer",
+      "usable_battery_size": 41.0,
+      "ac_charger": {
+        "usable_phases": 2,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.2,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.2,
+          "11": 7.2,
+          "16": 7.2,
+          "22": 7.2,
+          "43": 7.2
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 26.2
+      }
+    },
+    {
+      "id": "e2d5a248-d966-4b08-8fb0-9383fa84b713",
+      "brand": "Citroen",
+      "type": "phev",
+      "brand_id": "3b3fc191-f4c3-45da-bc3b-21efbe1b264f",
+      "model": "C5",
+      "release_year": 2020,
+      "variant": "Hybrid",
+      "usable_battery_size": 13.2,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 6.6,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 6.6,
+          "11": 3.7,
+          "16": 5.4,
+          "22": 6.6,
+          "43": 6.6
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 16.0
+      }
+    },
+    {
+      "id": "262ae184-9095-41ca-aaa0-9db46869f362",
+      "brand": "BMW",
+      "type": "bev",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "i3S",
+      "release_year": 2019,
+      "variant": "94 Ah",
+      "usable_battery_size": 27.2,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 49,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 49
+          },
+          {
+            "percentage": 45,
+            "power": 46
+          },
+          {
+            "percentage": 60,
+            "power": 40
+          },
+          {
+            "percentage": 80,
+            "power": 27
+          },
+          {
+            "percentage": 100,
+            "power": 14
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.1
+      }
+    },
+    {
+      "id": "823d8294-a3b3-40ab-a140-fa1e11e44c4e",
+      "brand": "BMW",
+      "type": "bev",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "i3S",
+      "release_year": 2019,
+      "variant": "94 Ah REX",
+      "usable_battery_size": 27.2,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 49,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 49
+          },
+          {
+            "percentage": 45,
+            "power": 46
+          },
+          {
+            "percentage": 60,
+            "power": 40
+          },
+          {
+            "percentage": 80,
+            "power": 27
+          },
+          {
+            "percentage": 100,
+            "power": 14
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.1
+      }
+    },
+    {
+      "id": "2390340c-4405-4ca8-b0a5-1565dc842d5a",
+      "brand": "BMW",
+      "type": "bev",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "i3S",
+      "release_year": 2019,
+      "variant": "120 Ah",
+      "usable_battery_size": 37.9,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 49,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 49
+          },
+          {
+            "percentage": 45,
+            "power": 46
+          },
+          {
+            "percentage": 60,
+            "power": 40
+          },
+          {
+            "percentage": 80,
+            "power": 27
+          },
+          {
+            "percentage": 100,
+            "power": 14
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.1
+      }
+    },
+    {
+      "id": "5da32d2e-f470-42c0-bf12-1db2336326ab",
+      "brand": "BMW",
+      "type": "phev",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "X1",
+      "release_year": 2019,
+      "variant": "xDrive 25e",
+      "usable_battery_size": 9.7,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.6,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.6,
+          "7.4": 3.6,
+          "11": 3.6,
+          "16": 3.6,
+          "22": 3.6,
+          "43": 3.6
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 19.0
+      }
+    },
+    {
+      "id": "ec2fa6bc-3470-4e80-a10f-eecc62321580",
+      "brand": "BMW",
+      "type": "phev",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "X3",
+      "release_year": 2019,
+      "variant": "xDrive30e",
+      "usable_battery_size": 12.0,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.7,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 3.7,
+          "11": 3.7,
+          "16": 3.7,
+          "22": 3.7,
+          "43": 3.7
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 16.4
+      }
     }
   ],
   "brands": [
@@ -8747,7 +9107,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2020-12-07T20:22:13Z",
-    "overall_count": 178
+    "updated_at": "2020-12-15T19:23:38Z",
+    "overall_count": 186
   }
 }
