@@ -8660,7 +8660,7 @@
             "power": 86
           },
           {
-            "percentage": 90,
+            "percentage": 100,
             "power": 44
           }
         ],
@@ -9107,7 +9107,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2020-12-15T19:23:38Z",
+    "updated_at": "2020-12-15T19:24:21Z",
     "overall_count": 186
   }
 }
