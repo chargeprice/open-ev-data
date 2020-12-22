@@ -8,10 +8,12 @@ Dotenv.load('.env')
 FILE_NAME = '../data/ev-data.json'.freeze
 PORT_NAME = %i[type1 type2 ccs chademo tesla_suc tesla_ccs].freeze
 ALLOWED_TYPES = ["bev","phev"]
+ALLOWED_VECHICLE_TYPES=["car","motorbike","scooter"]
 
 ROWS = [
   :id,
   :brand,
+  :vehicle_type,
   :type,
   :model,
   :release_year,
@@ -62,6 +64,7 @@ def parse_car(row,brands)
   {
     id: field(row,:id),
     brand: field(row,:brand),
+    vehicle_type: field(row,:vehicle_type),
     type: field(row, :type).downcase.tap { |t| ALLOWED_TYPES.include?(t) },
     brand_id: brands.fetch(field(row,:brand)) { raise "brand #{field(row,:brand)} not found" },
     model: field(row,:model),
