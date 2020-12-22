@@ -9358,6 +9358,8 @@
       },
       "dc_charger": {
         "ports": [
+          "ccs",
+          "chademo",
           "tesla_suc"
         ],
         "max_power": 197,
@@ -9418,6 +9420,8 @@
       },
       "dc_charger": {
         "ports": [
+          "ccs",
+          "chademo",
           "tesla_suc"
         ],
         "max_power": 197,
@@ -9478,6 +9482,8 @@
       },
       "dc_charger": {
         "ports": [
+          "ccs",
+          "chademo",
           "tesla_suc"
         ],
         "max_power": 197,
@@ -9538,6 +9544,8 @@
       },
       "dc_charger": {
         "ports": [
+          "ccs",
+          "chademo",
           "tesla_suc"
         ],
         "max_power": 197,
@@ -9598,6 +9606,8 @@
       },
       "dc_charger": {
         "ports": [
+          "ccs",
+          "chademo",
           "tesla_suc"
         ],
         "max_power": 197,
@@ -9658,6 +9668,8 @@
       },
       "dc_charger": {
         "ports": [
+          "ccs",
+          "chademo",
           "tesla_suc"
         ],
         "max_power": 197,
@@ -9718,6 +9730,8 @@
       },
       "dc_charger": {
         "ports": [
+          "ccs",
+          "chademo",
           "tesla_suc"
         ],
         "max_power": 197,
@@ -9778,6 +9792,8 @@
       },
       "dc_charger": {
         "ports": [
+          "ccs",
+          "chademo",
           "tesla_suc"
         ],
         "max_power": 197,
@@ -10832,6 +10848,438 @@
       "energy_consumption": {
         "average_consumption": 6.3
       }
+    },
+    {
+      "id": "f70eec15-6a6e-4f8c-8640-bb99ec06fe43",
+      "brand": "Tesla",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "model": "Model S",
+      "release_year": null,
+      "variant": "60",
+      "usable_battery_size": 62.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 16.5,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.100000000000001,
+          "16": 16.200000000000003,
+          "22": 16.5,
+          "43": 16.5
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs",
+          "chademo",
+          "tesla_suc"
+        ],
+        "max_power": 120.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 114
+          },
+          {
+            "percentage": 75,
+            "power": 120.0
+          },
+          {
+            "percentage": 100,
+            "power": 16.5
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 18.0
+      }
+    },
+    {
+      "id": "d43501d6-32b3-4601-bd24-605682e873fd",
+      "brand": "Tesla",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "model": "Model S",
+      "release_year": null,
+      "variant": "60D",
+      "usable_battery_size": 62.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 16.5,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.100000000000001,
+          "16": 16.200000000000003,
+          "22": 16.5,
+          "43": 16.5
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs",
+          "chademo",
+          "tesla_suc"
+        ],
+        "max_power": 120.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 114
+          },
+          {
+            "percentage": 75,
+            "power": 120.0
+          },
+          {
+            "percentage": 100,
+            "power": 16.5
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 17.7
+      }
+    },
+    {
+      "id": "d302a787-ff60-489a-b69b-2d1713009e88",
+      "brand": "Tesla",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "model": "Model S",
+      "release_year": null,
+      "variant": "70D",
+      "usable_battery_size": 66.5,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs",
+          "chademo",
+          "tesla_suc"
+        ],
+        "max_power": 120.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 114
+          },
+          {
+            "percentage": 75,
+            "power": 120.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 18.8
+      }
+    },
+    {
+      "id": "8a5ea62e-5c8c-483e-93f3-eebd659c0968",
+      "brand": "Tesla",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "model": "Model S",
+      "release_year": null,
+      "variant": "70D, 22 kW-AC",
+      "usable_battery_size": 66.5,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 22.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.100000000000001,
+          "16": 16.200000000000003,
+          "22": 22.0,
+          "43": 22.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs",
+          "chademo",
+          "tesla_suc"
+        ],
+        "max_power": 120.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 114
+          },
+          {
+            "percentage": 75,
+            "power": 120.0
+          },
+          {
+            "percentage": 100,
+            "power": 22.0
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 18.8
+      }
+    },
+    {
+      "id": "b017f476-2111-4322-a843-97ba5be641e2",
+      "brand": "Tesla",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "model": "Model S",
+      "release_year": null,
+      "variant": "75D",
+      "usable_battery_size": 72.5,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 16.5,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.100000000000001,
+          "16": 16.200000000000003,
+          "22": 16.5,
+          "43": 16.5
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs",
+          "chademo",
+          "tesla_suc"
+        ],
+        "max_power": 120.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 114
+          },
+          {
+            "percentage": 75,
+            "power": 120.0
+          },
+          {
+            "percentage": 100,
+            "power": 16.5
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 19.1
+      }
+    },
+    {
+      "id": "72720dc0-75b1-4e93-9c6c-0c07c7930412",
+      "brand": "Tesla",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "model": "Model S",
+      "release_year": null,
+      "variant": "P85D",
+      "usable_battery_size": 80.8,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs",
+          "chademo",
+          "tesla_suc"
+        ],
+        "max_power": 120.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 114
+          },
+          {
+            "percentage": 75,
+            "power": 120.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 19.1
+      }
+    },
+    {
+      "id": "6f30c707-a785-42e7-80dc-fff32e16bfcc",
+      "brand": "Tesla",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "model": "Model S",
+      "release_year": null,
+      "variant": "P85D, 22 kW-AC",
+      "usable_battery_size": 80.8,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 22.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.100000000000001,
+          "16": 16.200000000000003,
+          "22": 22.0,
+          "43": 22.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs",
+          "chademo",
+          "tesla_suc"
+        ],
+        "max_power": 120.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 114
+          },
+          {
+            "percentage": 75,
+            "power": 120.0
+          },
+          {
+            "percentage": 100,
+            "power": 22.0
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 19.1
+      }
+    },
+    {
+      "id": "4e1a275f-c333-40b8-bf8b-8f6ff271f720",
+      "brand": "Tesla",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "model": "Model S",
+      "release_year": null,
+      "variant": "90D",
+      "usable_battery_size": 83.5,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 16.5,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.100000000000001,
+          "16": 16.200000000000003,
+          "22": 16.5,
+          "43": 16.5
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs",
+          "chademo",
+          "tesla_suc"
+        ],
+        "max_power": 120.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 114
+          },
+          {
+            "percentage": 75,
+            "power": 120.0
+          },
+          {
+            "percentage": 100,
+            "power": 16.5
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 18.2
+      }
     }
   ],
   "brands": [
@@ -10973,7 +11421,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2020-12-22T09:16:38Z",
-    "overall_count": 229
+    "updated_at": "2020-12-22T14:24:12Z",
+    "overall_count": 237
   }
 }
