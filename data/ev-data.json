@@ -10124,20 +10124,20 @@
       "variant": "Standard + Charge Tank",
       "usable_battery_size": 12.6,
       "ac_charger": {
-        "usable_phases": 1,
+        "usable_phases": 2,
         "ports": [
           "type2"
         ],
-        "max_power": 3.7,
+        "max_power": 9.7,
         "power_per_charging_point": {
           "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
-          "7.4": 3.7,
-          "11": 3.7,
-          "16": 3.7,
-          "22": 3.7,
-          "43": 3.7
+          "7.4": 7.4,
+          "11": 7.4,
+          "16": 9.7,
+          "22": 9.7,
+          "43": 9.7
         }
       },
       "dc_charger": null,
@@ -10156,20 +10156,20 @@
       "variant": "Standard + Power Tank",
       "usable_battery_size": 15.8,
       "ac_charger": {
-        "usable_phases": 2,
+        "usable_phases": 1,
         "ports": [
           "type2"
         ],
-        "max_power": 9.7,
+        "max_power": 3.7,
         "power_per_charging_point": {
           "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
-          "7.4": 7.4,
-          "11": 7.4,
-          "16": 9.7,
-          "22": 9.7,
-          "43": 9.7
+          "7.4": 3.7,
+          "11": 3.7,
+          "16": 3.7,
+          "22": 3.7,
+          "43": 3.7
         }
       },
       "dc_charger": null,
@@ -11421,7 +11421,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2021-01-05T18:26:20Z",
+    "updated_at": "2021-01-05T19:08:16Z",
     "overall_count": 237
   }
 }
