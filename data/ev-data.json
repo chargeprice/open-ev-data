@@ -10124,20 +10124,20 @@
       "variant": "Standard + Charge Tank",
       "usable_battery_size": 12.6,
       "ac_charger": {
-        "usable_phases": 2,
+        "usable_phases": 1,
         "ports": [
           "type2"
         ],
-        "max_power": 9.7,
+        "max_power": 3.7,
         "power_per_charging_point": {
           "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
-          "7.4": 7.4,
-          "11": 7.4,
-          "16": 9.7,
-          "22": 9.7,
-          "43": 9.7
+          "7.4": 3.7,
+          "11": 3.7,
+          "16": 3.7,
+          "22": 3.7,
+          "43": 3.7
         }
       },
       "dc_charger": null,
@@ -10156,20 +10156,20 @@
       "variant": "Standard + Power Tank",
       "usable_battery_size": 15.8,
       "ac_charger": {
-        "usable_phases": 1,
+        "usable_phases": 2,
         "ports": [
           "type2"
         ],
-        "max_power": 3.7,
+        "max_power": 9.7,
         "power_per_charging_point": {
           "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
-          "7.4": 3.7,
-          "11": 3.7,
-          "16": 3.7,
-          "22": 3.7,
-          "43": 3.7
+          "7.4": 7.4,
+          "11": 7.4,
+          "16": 9.7,
+          "22": 9.7,
+          "43": 9.7
         }
       },
       "dc_charger": null,
@@ -10220,20 +10220,20 @@
       "variant": "Premium + Charge Tank",
       "usable_battery_size": 12.6,
       "ac_charger": {
-        "usable_phases": 2,
+        "usable_phases": 3,
         "ports": [
           "type2"
         ],
-        "max_power": 6.0,
+        "max_power": 12.0,
         "power_per_charging_point": {
           "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
-          "7.4": 6.0,
-          "11": 6.0,
-          "16": 6.0,
-          "22": 6.0,
-          "43": 6.0
+          "7.4": 7.4,
+          "11": 11.100000000000001,
+          "16": 12.0,
+          "22": 12.0,
+          "43": 12.0
         }
       },
       "dc_charger": null,
@@ -10252,20 +10252,20 @@
       "variant": "Premium + Power Tank",
       "usable_battery_size": 15.8,
       "ac_charger": {
-        "usable_phases": 3,
+        "usable_phases": 2,
         "ports": [
           "type2"
         ],
-        "max_power": 12.0,
+        "max_power": 6.0,
         "power_per_charging_point": {
           "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
-          "7.4": 7.4,
-          "11": 11.100000000000001,
-          "16": 12.0,
-          "22": 12.0,
-          "43": 12.0
+          "7.4": 6.0,
+          "11": 6.0,
+          "16": 6.0,
+          "22": 6.0,
+          "43": 6.0
         }
       },
       "dc_charger": null,
@@ -10412,20 +10412,20 @@
       "variant": "Premium + Charge Tank",
       "usable_battery_size": 12.6,
       "ac_charger": {
-        "usable_phases": 2,
+        "usable_phases": 3,
         "ports": [
           "type2"
         ],
-        "max_power": 6.0,
+        "max_power": 12.0,
         "power_per_charging_point": {
           "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
-          "7.4": 6.0,
-          "11": 6.0,
-          "16": 6.0,
-          "22": 6.0,
-          "43": 6.0
+          "7.4": 7.4,
+          "11": 11.100000000000001,
+          "16": 12.0,
+          "22": 12.0,
+          "43": 12.0
         }
       },
       "dc_charger": null,
@@ -10444,20 +10444,20 @@
       "variant": "Premium + Power Tank",
       "usable_battery_size": 15.8,
       "ac_charger": {
-        "usable_phases": 3,
+        "usable_phases": 2,
         "ports": [
           "type2"
         ],
-        "max_power": 12.0,
+        "max_power": 6.0,
         "power_per_charging_point": {
           "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
-          "7.4": 7.4,
-          "11": 11.100000000000001,
-          "16": 12.0,
-          "22": 12.0,
-          "43": 12.0
+          "7.4": 6.0,
+          "11": 6.0,
+          "16": 6.0,
+          "22": 6.0,
+          "43": 6.0
         }
       },
       "dc_charger": null,
@@ -11421,7 +11421,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2020-12-22T14:24:12Z",
+    "updated_at": "2021-01-05T18:26:20Z",
     "overall_count": 237
   }
 }
