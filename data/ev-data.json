@@ -4860,22 +4860,50 @@
         "ports": [
           "ccs"
         ],
-        "max_power": 100.0,
+        "max_power": 97,
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 95
+            "power": 97
           },
           {
-            "percentage": 75,
-            "power": 100.0
+            "percentage": 16,
+            "power": 97
+          },
+          {
+            "percentage": 17,
+            "power": 78
+          },
+          {
+            "percentage": 46,
+            "power": 78
+          },
+          {
+            "percentage": 47,
+            "power": 52
+          },
+          {
+            "percentage": 68,
+            "power": 52
+          },
+          {
+            "percentage": 69,
+            "power": 27
+          },
+          {
+            "percentage": 83,
+            "power": 27
+          },
+          {
+            "percentage": 84,
+            "power": 11
           },
           {
             "percentage": 100,
-            "power": 11.0
+            "power": 11
           }
         ],
-        "is_default_charging_curve": true
+        "is_default_charging_curve": false
       },
       "energy_consumption": {
         "average_consumption": 18.0
@@ -11421,7 +11449,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2021-01-05T19:08:16Z",
+    "updated_at": "2021-01-29T14:43:52Z",
     "overall_count": 237
   }
 }
