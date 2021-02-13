@@ -2,7 +2,8 @@
 source "https://rubygems.org"
 
 gem "multi_json"
-gem "google-api-client"
+gem "shortuuid"
+gem "contentful", "~> 2"
 gem "pry"
 gem "pry-byebug"
 gem "dotenv"
