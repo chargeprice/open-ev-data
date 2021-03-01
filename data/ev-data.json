@@ -673,6 +673,834 @@
       }
     },
     {
+      "id": "e59115ea-4d72-094c-2941-1494f8005ae2",
+      "brand": "BMW",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "i3",
+      "release_year": 2020,
+      "variant": "120 Ah",
+      "usable_battery_size": 37.9,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 50.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 47.5
+          },
+          {
+            "percentage": 75,
+            "power": 50.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 15.4
+      }
+    },
+    {
+      "id": "65dbdb2c-2dc1-55c8-2c64-52aa1a058bde",
+      "brand": "BMW",
+      "vehicle_type": "car",
+      "type": "phev",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "X5",
+      "release_year": 2020,
+      "variant": "xDrive25e",
+      "usable_battery_size": 22.2,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.7,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 3.7,
+          "11": 3.7,
+          "16": 3.7,
+          "22": 3.7,
+          "43": 3.7
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 29.1
+      }
+    },
+    {
+      "id": "afc8b8fa-3bd3-0488-1c5e-3dee70e61eff",
+      "brand": "BMW",
+      "vehicle_type": "car",
+      "type": "phev",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "X3",
+      "release_year": 2020,
+      "variant": "xDrive25e",
+      "usable_battery_size": 11.15,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.7,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 3.7,
+          "11": 3.7,
+          "16": 3.7,
+          "22": 3.7,
+          "43": 3.7
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 28.4
+      }
+    },
+    {
+      "id": "a616dcbc-4149-0421-9e0b-0dc594a702e0",
+      "brand": "BMW",
+      "vehicle_type": "car",
+      "type": "phev",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "X2",
+      "release_year": 2020,
+      "variant": "xDrive25e",
+      "usable_battery_size": 8.8,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.7,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 3.7,
+          "11": 3.7,
+          "16": 3.7,
+          "22": 3.7,
+          "43": 3.7
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 19.1
+      }
+    },
+    {
+      "id": "b322c1ff-4efd-fa27-bb63-6974227c4c91",
+      "brand": "BMW",
+      "vehicle_type": "car",
+      "type": "phev",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "X1",
+      "release_year": 2020,
+      "variant": "xDrive25e",
+      "usable_battery_size": 8.8,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.7,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 3.7,
+          "11": 3.7,
+          "16": 3.7,
+          "22": 3.7,
+          "43": 3.7
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 19.7
+      }
+    },
+    {
+      "id": "9685bd64-53aa-4b5f-9322-c04005d11edf",
+      "brand": "BMW",
+      "vehicle_type": "car",
+      "type": "phev",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "745Le",
+      "release_year": 2020,
+      "variant": "xDrive",
+      "usable_battery_size": 11.15,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.7,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 3.7,
+          "11": 3.7,
+          "16": 3.7,
+          "22": 3.7,
+          "43": 3.7
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 25.6
+      }
+    },
+    {
+      "id": "70606668-9b9e-a8d7-6c15-e4198f3eb38a",
+      "brand": "BMW",
+      "vehicle_type": "car",
+      "type": "phev",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "745Le",
+      "release_year": 2020,
+      "variant": "",
+      "usable_battery_size": 11.15,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.7,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 3.7,
+          "11": 3.7,
+          "16": 3.7,
+          "22": 3.7,
+          "43": 3.7
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 23.3
+      }
+    },
+    {
+      "id": "157486bb-1636-1b35-6382-b6320ab2a80e",
+      "brand": "BMW",
+      "vehicle_type": "car",
+      "type": "phev",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "740 E",
+      "release_year": 2016,
+      "variant": "",
+      "usable_battery_size": 7.4,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.7,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 3.7,
+          "11": 3.7,
+          "16": 3.7,
+          "22": 3.7,
+          "43": 3.7
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 17.0
+      }
+    },
+    {
+      "id": "6177d44b-2aae-dc5f-a770-6900b81c91dd",
+      "brand": "BMW",
+      "vehicle_type": "car",
+      "type": "phev",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "545",
+      "release_year": 2020,
+      "variant": "xDrive Berline",
+      "usable_battery_size": 11.15,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.7,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 3.7,
+          "11": 3.7,
+          "16": 3.7,
+          "22": 3.7,
+          "43": 3.7
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 17.2
+      }
+    },
+    {
+      "id": "01936832-c987-da0e-cbb3-9f6793becdfe",
+      "brand": "BMW",
+      "vehicle_type": "car",
+      "type": "phev",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "530e",
+      "release_year": 2020,
+      "variant": "xDrive Touring",
+      "usable_battery_size": 11.15,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.7,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 3.7,
+          "11": 3.7,
+          "16": 3.7,
+          "22": 3.7,
+          "43": 3.7
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 18.5
+      }
+    },
+    {
+      "id": "9587d885-c16c-7465-9a18-59b5d50fd046",
+      "brand": "BMW",
+      "vehicle_type": "car",
+      "type": "phev",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "530e",
+      "release_year": 2020,
+      "variant": "Touring",
+      "usable_battery_size": 11.15,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.7,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 3.7,
+          "11": 3.7,
+          "16": 3.7,
+          "22": 3.7,
+          "43": 3.7
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 17.0
+      }
+    },
+    {
+      "id": "8be48c23-71fe-04a4-b8e6-36364a3d0cc0",
+      "brand": "BMW",
+      "vehicle_type": "car",
+      "type": "phev",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "530e",
+      "release_year": 2020,
+      "variant": "xDrive Berline",
+      "usable_battery_size": 11.15,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.7,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 3.7,
+          "11": 3.7,
+          "16": 3.7,
+          "22": 3.7,
+          "43": 3.7
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 17.4
+      }
+    },
+    {
+      "id": "1914d6e6-7d1b-c453-53ac-69a302a6a339",
+      "brand": "BMW",
+      "vehicle_type": "car",
+      "type": "phev",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "530e",
+      "release_year": 2020,
+      "variant": "Berline",
+      "usable_battery_size": 11.15,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.7,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 3.7,
+          "11": 3.7,
+          "16": 3.7,
+          "22": 3.7,
+          "43": 3.7
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 16.3
+      }
+    },
+    {
+      "id": "dda42a87-6ea2-fbb5-7728-f25badd52364",
+      "brand": "BMW",
+      "vehicle_type": "car",
+      "type": "phev",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "330e",
+      "release_year": 2020,
+      "variant": "xDrive Touring",
+      "usable_battery_size": 11.5,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.7,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 3.7,
+          "11": 3.7,
+          "16": 3.7,
+          "22": 3.7,
+          "43": 3.7
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 17.2
+      }
+    },
+    {
+      "id": "0efa3174-34f1-bc1d-cd5a-07610fa59c15",
+      "brand": "BMW",
+      "vehicle_type": "car",
+      "type": "phev",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "330e",
+      "release_year": 2020,
+      "variant": "Touring",
+      "usable_battery_size": 11.15,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.7,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 3.7,
+          "11": 3.7,
+          "16": 3.7,
+          "22": 3.7,
+          "43": 3.7
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 16.2
+      }
+    },
+    {
+      "id": "2b04eeba-1de9-9719-adce-0a9df359b329",
+      "brand": "BMW",
+      "vehicle_type": "car",
+      "type": "phev",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "330e",
+      "release_year": 2020,
+      "variant": "xDrive Berline",
+      "usable_battery_size": 11.15,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.7,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 3.7,
+          "11": 3.7,
+          "16": 3.7,
+          "22": 3.7,
+          "43": 3.7
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 16.5
+      }
+    },
+    {
+      "id": "8c3ec01d-8419-6ef6-8411-56b351fb6643",
+      "brand": "BMW",
+      "vehicle_type": "car",
+      "type": "phev",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "330e",
+      "release_year": 2020,
+      "variant": "berline",
+      "usable_battery_size": 11.5,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.7,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 3.7,
+          "11": 3.7,
+          "16": 3.7,
+          "22": 3.7,
+          "43": 3.7
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 16.5
+      }
+    },
+    {
+      "id": "8653e2d2-5e7d-5172-89ef-71ba177ec0ee",
+      "brand": "BMW",
+      "vehicle_type": "car",
+      "type": "phev",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "330e",
+      "release_year": 2016,
+      "variant": "",
+      "usable_battery_size": 12.0,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.7,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 3.7,
+          "11": 3.7,
+          "16": 3.7,
+          "22": 3.7,
+          "43": 3.7
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 17.0
+      }
+    },
+    {
+      "id": "2db395d2-56a0-d1a7-cddb-0b4076071e76",
+      "brand": "BMW",
+      "vehicle_type": "car",
+      "type": "phev",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "225XE",
+      "release_year": 2020,
+      "variant": "Active Tourer 220 ch",
+      "usable_battery_size": 8.8,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.7,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 3.7,
+          "11": 3.7,
+          "16": 3.7,
+          "22": 3.7,
+          "43": 3.7
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 14.5
+      }
+    },
+    {
+      "id": "bed96790-afa0-be7a-015a-55bc42c49894",
+      "brand": "BMW",
+      "vehicle_type": "car",
+      "type": "phev",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "225XE",
+      "release_year": 2016,
+      "variant": "Serie 2 ActiveTourer",
+      "usable_battery_size": 10.0,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.7,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 3.7,
+          "11": 3.7,
+          "16": 3.7,
+          "22": 3.7,
+          "43": 3.7
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 17.0
+      }
+    },
+    {
+      "id": "39e0d641-d1c4-0764-16f8-2ff6bc1d97de",
+      "brand": "BMW",
+      "vehicle_type": "car",
+      "type": "phev",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "225XE",
+      "release_year": 2019,
+      "variant": "10.0 kWh",
+      "usable_battery_size": 8.8,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.7,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 3.7,
+          "11": 3.7,
+          "16": 3.7,
+          "22": 3.7,
+          "43": 3.7
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 17.0
+      }
+    },
+    {
+      "id": "564ce4d8-404c-6840-5bf6-9ffd6a9768ac",
+      "brand": "BMW",
+      "vehicle_type": "car",
+      "type": "phev",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "I8",
+      "release_year": 2018,
+      "variant": "Roadster",
+      "usable_battery_size": 9.4,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.7,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 3.7,
+          "11": 3.7,
+          "16": 3.7,
+          "22": 3.7,
+          "43": 3.7
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 18.0
+      }
+    },
+    {
+      "id": "555c0b5b-ba1e-741a-27e0-dee32087e2a2",
+      "brand": "BMW",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "iX3",
+      "release_year": 2020,
+      "variant": "286 ch",
+      "usable_battery_size": 73.8,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 142.5
+          },
+          {
+            "percentage": 75,
+            "power": 150.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 18.6
+      }
+    },
+    {
+      "id": "aceb9326-181f-cc73-0467-4c63ee47c0fb",
+      "brand": "BMW",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "i3S",
+      "release_year": 2020,
+      "variant": "120 Ah",
+      "usable_battery_size": 37.9,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.7,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 3.7,
+          "11": 3.7,
+          "16": 3.7,
+          "22": 3.7,
+          "43": 3.7
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 50.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 47.5
+          },
+          {
+            "percentage": 75,
+            "power": 50.0
+          },
+          {
+            "percentage": 100,
+            "power": 3.7
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 16.2
+      }
+    },
+    {
       "id": "e67dc450-d658-4bee-bd0f-a750d445b2f9",
       "brand": "BMW",
       "vehicle_type": "car",
@@ -11529,7 +12357,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2021-02-13T19:22:32Z",
-    "overall_count": 237
+    "updated_at": "2021-03-01T08:06:05Z",
+    "overall_count": 261
   }
 }

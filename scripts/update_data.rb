@@ -45,7 +45,9 @@ end
 def client
   @client ||= ::Contentful::Client.new(
     space: ENV['CONTENTFUL_SPACE_ID'],
-    access_token: ENV['CONTENTFUL_ACCESS_TOKEN']
+    access_token: ENV['CONTENTFUL_ACCESS_TOKEN'],
+    raise_for_empty_fields: false,
+    dynamic_entries:        :auto
   )
 end
 
@@ -71,14 +73,14 @@ end
 def ac_charger(entry)
   {
     usable_phases: entry.ac_phases,
-    ports: list_value(entry, :ac_ports, []),
+    ports: entry.ac_ports || [],
     max_power: entry.max_ac_power.to_f,
     power_per_charging_point: power_per_charging_point(entry)
   }
 end
 
 def dc_charger(entry)
-  ports = list_value(entry, :dc_ports, [])
+  ports = entry.dc_ports || []
   return if ports.empty?
 
   curve = dc_charging_curve(entry)
@@ -87,12 +89,12 @@ def dc_charger(entry)
     ports: ports,
     max_power: (curve ? curve.max_by { |v| v[:power] }[:power] : max_power).to_f,
     charging_curve: dc_charging_curve(entry),
-    is_default_charging_curve: !entry.respond_to?(:dc_charging_curve)
+    is_default_charging_curve: !entry.dc_charging_curve
   }
 end
 
 def dc_charging_curve(entry)
-  unless entry.respond_to?(:dc_charging_curve)
+  unless entry.dc_charging_curve
     return nil unless entry.max_dc_power
 
     max_dc_power = entry.max_dc_power.to_f
@@ -100,7 +102,7 @@ def dc_charging_curve(entry)
     return default_charging_curve(max_dc_power, max_ac_power)
   end
 
-  list_value(entry, :dc_charging_curve).map do |item|
+  entry.dc_charging_curve.map do |item|
     vals = item.split(',')
     { percentage: Integer(vals[0]), power: Float(vals[1]) }
   end
@@ -127,12 +129,6 @@ def power_per_charging_point(entry)
     22 => [max_power, max_phases * 7.4].min.round(1),
     43 => max_power > 22 ? max_power : [max_power, max_phases * 7.4].min.round(1)
   }
-end
-
-def list_value(entry, name, default = nil)
-  return default unless entry.respond_to?(name)
-
-  entry.public_send(name)
 end
 
 load_from_contentful
