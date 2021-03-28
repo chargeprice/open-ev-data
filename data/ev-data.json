@@ -4534,6 +4534,58 @@
       }
     },
     {
+      "id": "c1fda7bf-9307-03c9-86c1-0350de0994cb",
+      "brand": "MG",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "5663b87a-d940-4bab-9846-d74c8c0ae260",
+      "model": "MG5 EV",
+      "release_year": 2020,
+      "variant": "",
+      "usable_battery_size": 48.8,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 6.6,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 6.6,
+          "11": 3.7,
+          "16": 5.4,
+          "22": 6.6,
+          "43": 6.6
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 80.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 76.0
+          },
+          {
+            "percentage": 75,
+            "power": 80.0
+          },
+          {
+            "percentage": 100,
+            "power": 6.6
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 16.5
+      }
+    },
+    {
       "id": "8b0195b6-5318-46d9-a6fd-1b5f75e8b495",
       "brand": "MG",
       "vehicle_type": "car",
@@ -4690,15 +4742,15 @@
       }
     },
     {
-      "id": "6bbd3cdd-2b11-43cd-85b9-4556937f9f82",
+      "id": "8a5cd1a2-f84a-22b9-b397-470fe5ca5bca",
       "brand": "Mercedes Benz",
       "vehicle_type": "car",
       "type": "bev",
       "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
-      "model": "EQV",
+      "model": "EQC",
       "release_year": 2020,
-      "variant": "300 Long\r",
-      "usable_battery_size": 90.0,
+      "variant": "11 kW-AC",
+      "usable_battery_size": 80.0,
       "ac_charger": {
         "usable_phases": 3,
         "ports": [
@@ -4720,25 +4772,33 @@
         "ports": [
           "ccs"
         ],
-        "max_power": 110.0,
+        "max_power": 125.0,
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 104.5
+            "power": 105.0
           },
           {
-            "percentage": 75,
-            "power": 110.0
+            "percentage": 39,
+            "power": 125.0
+          },
+          {
+            "percentage": 70,
+            "power": 87.0
+          },
+          {
+            "percentage": 84,
+            "power": 68.0
           },
           {
             "percentage": 100,
-            "power": 11.0
+            "power": 25.0
           }
         ],
-        "is_default_charging_curve": true
+        "is_default_charging_curve": false
       },
       "energy_consumption": {
-        "average_consumption": 27.3
+        "average_consumption": 21.6
       }
     },
     {
@@ -4749,7 +4809,7 @@
       "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
       "model": "EQC",
       "release_year": 2019,
-      "variant": "",
+      "variant": "7,4 kW-AC",
       "usable_battery_size": 80.0,
       "ac_charger": {
         "usable_phases": 2,
@@ -4799,6 +4859,118 @@
       },
       "energy_consumption": {
         "average_consumption": 21.6
+      }
+    },
+    {
+      "id": "0fad0871-8a99-6506-9c09-837f9ede132d",
+      "brand": "Mercedes Benz",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "model": "EQA",
+      "release_year": 2021,
+      "variant": "250",
+      "usable_battery_size": 66.6,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 99.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 99.0
+          },
+          {
+            "percentage": 35,
+            "power": 98.0
+          },
+          {
+            "percentage": 65,
+            "power": 70.0
+          },
+          {
+            "percentage": 85,
+            "power": 36.0
+          },
+          {
+            "percentage": 100,
+            "power": 1.0
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 17.7
+      }
+    },
+    {
+      "id": "6bbd3cdd-2b11-43cd-85b9-4556937f9f82",
+      "brand": "Mercedes Benz",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "model": "EQV",
+      "release_year": 2020,
+      "variant": "300 Long\r",
+      "usable_battery_size": 90.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 110.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 104.5
+          },
+          {
+            "percentage": 75,
+            "power": 110.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 27.3
       }
     },
     {
@@ -5466,6 +5638,126 @@
       }
     },
     {
+      "id": "2644bfd3-a593-4276-bb1f-c8965e33797e",
+      "brand": "Nissan",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
+      "model": "e-NV 200",
+      "release_year": null,
+      "variant": "24 kWh 6,6 kW-AC",
+      "usable_battery_size": 24.0,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type1"
+        ],
+        "max_power": 6.6,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 6.6,
+          "11": 3.7,
+          "16": 5.4,
+          "22": 6.6,
+          "43": 6.6
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "chademo"
+        ],
+        "max_power": 46.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 40.0
+          },
+          {
+            "percentage": 10,
+            "power": 45.0
+          },
+          {
+            "percentage": 23,
+            "power": 46.0
+          },
+          {
+            "percentage": 80,
+            "power": 25.0
+          },
+          {
+            "percentage": 100,
+            "power": 10.0
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 20.0
+      }
+    },
+    {
+      "id": "86290f48-f554-4db5-bd35-4a8b7828689a",
+      "brand": "Nissan",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
+      "model": "e-NV 200",
+      "release_year": null,
+      "variant": "24 kWh",
+      "usable_battery_size": 24.0,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type1"
+        ],
+        "max_power": 3.6,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.6,
+          "7.4": 3.6,
+          "11": 3.6,
+          "16": 3.6,
+          "22": 3.6,
+          "43": 3.6
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "chademo"
+        ],
+        "max_power": 46.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 40.0
+          },
+          {
+            "percentage": 10,
+            "power": 45.0
+          },
+          {
+            "percentage": 23,
+            "power": 46.0
+          },
+          {
+            "percentage": 80,
+            "power": 25.0
+          },
+          {
+            "percentage": 100,
+            "power": 10.0
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 20.0
+      }
+    },
+    {
       "id": "daa3573d-60ea-4c7a-8048-79c575e3db4c",
       "brand": "Nissan",
       "vehicle_type": "car",
@@ -5496,22 +5788,26 @@
         "ports": [
           "chademo"
         ],
-        "max_power": 46.0,
+        "max_power": 45.0,
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 43.7
+            "power": 40.0
+          },
+          {
+            "percentage": 62,
+            "power": 45.0
           },
           {
             "percentage": 75,
-            "power": 46.0
+            "power": 36.0
           },
           {
             "percentage": 100,
-            "power": 6.6
+            "power": 15.0
           }
         ],
-        "is_default_charging_curve": true
+        "is_default_charging_curve": false
       },
       "energy_consumption": {
         "average_consumption": 20.0
@@ -5727,110 +6023,6 @@
       },
       "energy_consumption": {
         "average_consumption": 16.9
-      }
-    },
-    {
-      "id": "86290f48-f554-4db5-bd35-4a8b7828689a",
-      "brand": "Nissan",
-      "vehicle_type": "car",
-      "type": "bev",
-      "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
-      "model": "e-NV 200",
-      "release_year": null,
-      "variant": "24 kWh",
-      "usable_battery_size": 24.0,
-      "ac_charger": {
-        "usable_phases": 1,
-        "ports": [
-          "type1"
-        ],
-        "max_power": 3.6,
-        "power_per_charging_point": {
-          "2.0": 2.0,
-          "2.3": 2.3,
-          "3.7": 3.6,
-          "7.4": 3.6,
-          "11": 3.6,
-          "16": 3.6,
-          "22": 3.6,
-          "43": 3.6
-        }
-      },
-      "dc_charger": {
-        "ports": [
-          "chademo"
-        ],
-        "max_power": 46.0,
-        "charging_curve": [
-          {
-            "percentage": 0,
-            "power": 43.7
-          },
-          {
-            "percentage": 75,
-            "power": 46.0
-          },
-          {
-            "percentage": 100,
-            "power": 3.6
-          }
-        ],
-        "is_default_charging_curve": true
-      },
-      "energy_consumption": {
-        "average_consumption": 20.0
-      }
-    },
-    {
-      "id": "2644bfd3-a593-4276-bb1f-c8965e33797e",
-      "brand": "Nissan",
-      "vehicle_type": "car",
-      "type": "bev",
-      "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
-      "model": "e-NV 200",
-      "release_year": null,
-      "variant": "24 kWh 6,6 kW-AC",
-      "usable_battery_size": 24.0,
-      "ac_charger": {
-        "usable_phases": 1,
-        "ports": [
-          "type1"
-        ],
-        "max_power": 6.6,
-        "power_per_charging_point": {
-          "2.0": 2.0,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 6.6,
-          "11": 3.7,
-          "16": 5.4,
-          "22": 6.6,
-          "43": 6.6
-        }
-      },
-      "dc_charger": {
-        "ports": [
-          "chademo"
-        ],
-        "max_power": 46.0,
-        "charging_curve": [
-          {
-            "percentage": 0,
-            "power": 43.7
-          },
-          {
-            "percentage": 75,
-            "power": 46.0
-          },
-          {
-            "percentage": 100,
-            "power": 6.6
-          }
-        ],
-        "is_default_charging_curve": true
-      },
-      "energy_consumption": {
-        "average_consumption": 20.0
       }
     },
     {
@@ -7442,6 +7634,38 @@
       }
     },
     {
+      "id": "1d05cd18-d724-c60a-e8a4-c54b33b580e6",
+      "brand": "Seat",
+      "vehicle_type": "car",
+      "type": "phev",
+      "brand_id": "91c527ff-aa74-4dbb-9091-36fb5ddd44b6",
+      "model": "Leon eHybrid",
+      "release_year": 2020,
+      "variant": "13 kWh - 204 ch",
+      "usable_battery_size": 13.0,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.7,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 3.7,
+          "11": 3.7,
+          "16": 3.7,
+          "22": 3.7,
+          "43": 3.7
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 14.0
+      }
+    },
+    {
       "id": "2eea1ef2-0fd1-481d-adee-68044666614e",
       "brand": "Seat",
       "vehicle_type": "car",
@@ -7495,6 +7719,38 @@
       },
       "energy_consumption": {
         "average_consumption": 16.6
+      }
+    },
+    {
+      "id": "52a90ece-7261-20a4-55fc-34c11b1cdc92",
+      "brand": "Skoda",
+      "vehicle_type": "car",
+      "type": "phev",
+      "brand_id": "43763587-6999-406b-8843-28977e1b82c3",
+      "model": "Octavia",
+      "release_year": 2020,
+      "variant": "iV PHEV",
+      "usable_battery_size": 13.0,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.6,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.6,
+          "7.4": 3.6,
+          "11": 3.6,
+          "16": 3.6,
+          "22": 3.6,
+          "43": 3.6
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 148.0
       }
     },
     {
@@ -10102,6 +10358,38 @@
       }
     },
     {
+      "id": "5b501d1c-6e2a-f409-efe9-9a53e405c4eb",
+      "brand": "Volkswagen",
+      "vehicle_type": "car",
+      "type": "phev",
+      "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
+      "model": "Golf GTE",
+      "release_year": 2020,
+      "variant": "8",
+      "usable_battery_size": 13.0,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.7,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 3.7,
+          "11": 3.7,
+          "16": 3.7,
+          "22": 3.7,
+          "43": 3.7
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 11.4
+      }
+    },
+    {
       "id": "50baff44-fcbe-48ac-a7ae-7a5181d9bb8c",
       "brand": "Volkswagen",
       "vehicle_type": "car",
@@ -12357,7 +12645,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2021-03-01T08:06:05Z",
-    "overall_count": 261
+    "updated_at": "2021-03-28T10:37:12Z",
+    "overall_count": 267
   }
 }
