@@ -44,10 +44,46 @@ data if you need it!
   * Is Default Charging Curve: `true` if the charging curve is based on the
     default curve instead of real measured data.
 
-## Updating the Data
-
-The data is managed by Chargeprice via the Contentful CMS and is regularly
-updated. 
+## Change Requests
 
 Please file an issue if you have a change request or reach out to
 contact@chargeprice.net
+
+## Contributing
+
+The data is managed by Chargeprice via the Contentful CMS and is regularly
+updated. However we are always looking for people who want to contribute to the
+project! Feel free to contact contact@chargeprice.net in this case!
+
+## Updating the data
+
+After you have **published** the data on Contentful, Open EV Data needs to get
+the changes as well. 
+
+Follow these steps:
+
+### Preconditions
+
+* Have Ruby installed
+* Have this project checked out
+* Have contentful credentials available and stored in a `scripts/.env` file:
+
+```
+CONTENTFUL_ACCESS_TOKEN=<token>
+CONTENTFUL_SPACE_ID=<space-id>
+ ```
+
+### Running the script
+
+1) `cd scripts`
+2) Make sure bundler (`bundle -v`) is installed. If not: `gem install bundler`
+3) Install dependencies: `bundle install`
+4) `ruby update_data.rb`
+
+Your changes should new appear in `data/ev-data.json`.
+
+### Pushing the changes
+
+1) `git commit -m "ADD charging curve of Aiways U5"` (add a meaningful change
+   message)
+2) `git push` (push to master is fine)
