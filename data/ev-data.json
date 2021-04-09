@@ -31,22 +31,30 @@
         "ports": [
           "ccs"
         ],
-        "max_power": 100.0,
+        "max_power": 95.0,
         "charging_curve": [
           {
             "percentage": 0,
             "power": 95.0
           },
           {
-            "percentage": 75,
-            "power": 100.0
+            "percentage": 18,
+            "power": 90.0
+          },
+          {
+            "percentage": 40,
+            "power": 90.0
+          },
+          {
+            "percentage": 80,
+            "power": 50.0
           },
           {
             "percentage": 100,
             "power": 6.6
           }
         ],
-        "is_default_charging_curve": true
+        "is_default_charging_curve": false
       },
       "energy_consumption": {
         "average_consumption": 18.8
@@ -12645,7 +12653,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2021-03-28T10:37:12Z",
+    "updated_at": "2021-04-09T08:20:13Z",
     "overall_count": 267
   }
 }
