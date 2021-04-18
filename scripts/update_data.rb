@@ -34,7 +34,7 @@ def fetch_entries
   current_skip = 0
   entries_per_page = []
   loop do
-    current_page = client.entries(content_type: 'vehicleModelVariant', include: 2, skip: current_skip)
+    current_page = client.entries(content_type: 'vehicleModelVariant', include: 2, skip: current_skip, order: "-sys.updatedAt")
     entries_per_page << current_page.to_a
     current_page.length.zero? ? break : current_skip += PAGE_SIZE
   end
