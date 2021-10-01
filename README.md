@@ -1,89 +1,59 @@
-# Open EV Data
 
-Open Dataset of Electric Vehicles and their specs.
 
-In contrast to ICE cars, electric vehicles have very different behavious in
-terms of charging and charging speed. Hence having reliable data about a car is
-the key for developing EV-related applications.
+# Open EV Data is now part of the Chargeprice API!
 
-This dataset (`data/ev-data.json`) can be freely integrated into ANY
-application. Mentioning Open EV Data as a source is appreciated!
+After two years of being a separate project, we have decided to integrate Open
+EV Data directly into the Chargeprice API.
 
-This is a side project of the charging price and tariff comparison platform
-[Chargeprice](https://www.chargeprice.app).
+You can now access the EV data via the [/v2/vehicles
+endpoint](https://github.com/chargeprice/chargeprice-api-docs/blob/master/api/v2/vehicles/index.md)
+of the [Chargeprice API](https://github.com/chargeprice/chargeprice-api-docs).
 
-## Available Data
+[Get access now!](https://github.com/chargeprice/chargeprice-api-docs#getting-access)
 
-At the moment mostly charging related data is available. Feel free to add more
-data if you need it!
+## FAQ
 
-* ID: Random UUID
-* Brand
-* Vehicle Type (car, motorbike)
-* Type (BEH, PHEV)
-* Model
-* Release Year: Mainly to distinquish models with the same name.
-* Variant: Bigger battery, optional faster on-board charger etc.
-* Usable Battery Size: in kWh
-* Average Energy Consumption: in kWh/100km
-* AC Charger: Details about the on-board charger.
-  * Usable Phases: No. of usable phases for AC charging. Allowed values: 1,2,3
-  * Ports: Allowed values: `type1`, `type2`
-  * Max Power: in kW
-  * Power per Charging Point: Charging power at common charging points. Key and
-    Value in kW.
-* DC Charger: `null` if the car doesn't support DC charging
-  * Ports: Allowed values: `ccs`, `chademo`, `tesla_suc`, `tesla_ccs`
-  * Max Power: in kW
-  * Charging Curve: Simplified charging behaviour based on various charging
-    curve charts (e.g. Fastned). If no charging curve data is available, the
-    default curve is assumed to be: 0%: 95% of max. DC power, 75%: max. DC
-    power, 100%: max. AC power.
-    * percentage: Charging level of battery in percentage
-    * power: in kW
-  * Is Default Charging Curve: `true` if the charging curve is based on the
-    default curve instead of real measured data.
+### Why did we integrate Open EV Data into the Chargeprice API?
 
-## Change Requests
+There are multiple reasons:
 
-Please file an issue if you have a change request or reach out to
-contact@chargeprice.net
+1) Initially the idea of Open EV Data was to build an open dataset that everyone can use. This was achieved. We were also hoping to get support from the community to add new vehicles and keep the data up to date. Unfortunately this didn't really work out. So it was mainly (with a few exceptions, thanks!) on us, Chargeprice, to manage the data. While we love to do this, it's also resource intensive and it's not sustainable for us to provide data for free for any - even commercial - projects. In the end we believe that only sustainable projects can survive.
 
-## Contributing
+2) Technically there has always been some manual effort to get Open EV Data up to date with the data that we are already using in Chargeprice. With the integration into the Chargeprice API this manual step is now gone.
 
-The data is managed by Chargeprice via the Contentful CMS and is regularly
-updated. However we are always looking for people who want to contribute to the
-project! Feel free to contact contact@chargeprice.net in this case!
+3) We have played around with multiple data management systems in the past and each one resulted in the need to adapt two systems: The Chargeprice API and Open EV Data. Now we have a single source of truth and this step is not needed anymore.
 
-## Updating the data
+### What will happen with this repository?
 
-After you have **published** the data on Contentful, Open EV Data needs to get
-the changes as well. 
+We will keep the `/data/ev-data.json` as it is, because it's anyway accessible
+via the Git history and forks. Also we published this data with the MIT Licence that
+grants free usage by anyone.
 
-Follow these steps:
+However we won't push any updates anymore.
 
-### Preconditions
+### Can I still use the data for free?
 
-* Have Ruby installed
-* Have this project checked out
-* Have contentful credentials available and stored in a `scripts/.env` file:
+According to our [API
+plans](https://github.com/chargeprice/chargeprice-api-docs/blob/master/plans.md)
+we will provide this data free of charge for non-commercial projects.
 
-```
-CONTENTFUL_ACCESS_TOKEN=<token>
-CONTENTFUL_SPACE_ID=<space-id>
- ```
+If you have been using Open EV Data before already and still want to get updates
+contact us and we will find a solution.
 
-### Running the script
+### How do I migrate?
 
-1) `cd scripts`
-2) Make sure bundler (`bundle -v`) is installed. If not: `gem install bundler`
-3) Install dependencies: `bundle install`
-4) `ruby update_data.rb`
+Follow the instructions on the [Chargeprice API
+docs](https://github.com/chargeprice/chargeprice-api-docs) to get access to the
+data.
 
-Your changes should new appear in `data/ev-data.json`.
+Then you need to call our API instead of fetching the file from Github directly.
 
-### Pushing the changes
+The data format has slightly changed, but overall it's the same as before. 
 
-1) `git commit -m "ADD charging curve of Aiways U5"` (add a meaningful change
-   message)
-2) `git push` (push to master is fine)
+### Can I take over the Open EV Data project/idea by fetching the data from your API and publish it here (or anywhere else) for usage by anyone?
+
+No. Thanks for your understanding.
+
+### Are there any benefits for me with the new approach?
+
+Besides making sure that this project can also exist in the future, you will now also get updates to the dataset much faster! We've usually updated Open EV Data only on a monthly basis. The data from the Chargeprice API however will be updated on a weekly or even daily basis!
