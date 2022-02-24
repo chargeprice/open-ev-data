@@ -35,9 +35,10 @@ However we won't push any updates anymore.
 
 According to our [API
 plans](https://github.com/chargeprice/chargeprice-api-docs/blob/master/plans.md)
-we will provide this data free of charge for non-commercial projects.
+we are providing a very attractive offer for individuals or small teams that have
+just started.
 
-If you have been using Open EV Data before already and still want to get updates
+If you have been using Open EV Data before already and still want to get updates,
 contact us and we will find a solution.
 
 ### How do I migrate?
