@@ -1,0 +1,154 @@
+[
+    {
+      "_id": "a43d2607-eead-46c2-9fd5-2ebd3c49d895",
+      "name": "Aiways"
+    },
+    {
+      "_id": "97d0d03a-63c6-4f33-99d7-6e944f71d7c5",
+      "name": "Artega"
+    },
+    {
+      "_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "name": "Audi"
+    },
+    {
+      "_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "name": "BMW"
+    },
+    {
+      "_id": "df115651-4cef-01f0-14ef-fdeef60f674c",
+      "name": "CUPRA"
+    },
+    {
+      "_id": "cbca5847-9b23-47d9-80d3-24fa9a8ca21a",
+      "name": "Chevrolet"
+    },
+    {
+      "_id": "3b3fc191-f4c3-45da-bc3b-21efbe1b264f",
+      "name": "Citroen"
+    },
+    {
+      "_id": "37bfdacf-1aca-4eb7-8daa-8dc5b14c59e9",
+      "name": "DS"
+    },
+    {
+      "_id": "3db0ef48-3566-5fab-00a9-3107c4019b68",
+      "name": "Dacia"
+    },
+    {
+      "_id": "ef55e52a-51bd-740c-876d-92cbc6a6cac1",
+      "name": "Energica"
+    },
+    {
+      "_id": "3291e5ba-862c-49fa-8437-71105743875e",
+      "name": "Fiat"
+    },
+    {
+      "_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
+      "name": "Ford"
+    },
+    {
+      "_id": "9ca5e092-76e2-4868-afc1-c06abeedf81b",
+      "name": "Honda"
+    },
+    {
+      "_id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
+      "name": "Hyundai"
+    },
+    {
+      "_id": "61fc79a2-04ca-418e-9333-caf5f67ba02f",
+      "name": "Jaguar"
+    },
+    {
+      "_id": "3f1649fc-a64c-fd11-53a6-56031d7757aa",
+      "name": "Jeep"
+    },
+    {
+      "_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "name": "Kia"
+    },
+    {
+      "_id": "8f65f3e7-430e-4c85-93fd-a70aa181fd9c",
+      "name": "MAN"
+    },
+    {
+      "_id": "5663b87a-d940-4bab-9846-d74c8c0ae260",
+      "name": "MG"
+    },
+    {
+      "_id": "171a1e6d-8cbc-41a9-a8bb-e05b7ee98889",
+      "name": "Maxus"
+    },
+    {
+      "_id": "9b829849-1219-48b8-964e-90ddc1a4fa85",
+      "name": "Mazda"
+    },
+    {
+      "_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "name": "Mercedes Benz"
+    },
+    {
+      "_id": "6d9d9248-de4a-4b13-976b-4e9f6688b0b1",
+      "name": "Mini"
+    },
+    {
+      "_id": "3cf8cf51-60ac-4cac-9f25-131c21eda12e",
+      "name": "Mitsubishi"
+    },
+    {
+      "_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
+      "name": "Nissan"
+    },
+    {
+      "_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
+      "name": "Opel"
+    },
+    {
+      "_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "name": "Peugeot"
+    },
+    {
+      "_id": "391f000f-d9d1-4c13-b744-95f0b9c8a2e1",
+      "name": "Polestar"
+    },
+    {
+      "_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
+      "name": "Porsche"
+    },
+    {
+      "_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "name": "Renault"
+    },
+    {
+      "_id": "91c527ff-aa74-4dbb-9091-36fb5ddd44b6",
+      "name": "Seat"
+    },
+    {
+      "_id": "43763587-6999-406b-8843-28977e1b82c3",
+      "name": "Skoda"
+    },
+    {
+      "_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "name": "Tesla"
+    },
+    {
+      "_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
+      "name": "Volkswagen"
+    },
+    {
+      "_id": "2e55ea02-c829-4256-94fd-ffc971a1dd8e",
+      "name": "Volvo"
+    },
+    {
+      "_id": "5686f8db-6a36-41e7-a78c-fbf957ca103a",
+      "name": "Zero Motorcycles"
+    },
+    {
+      "_id": "771bb157-23a2-4917-908c-810d241718d5",
+      "name": "e.GO Mobile"
+    },
+    {
+      "_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "name": "smart"
+    }
+  ]
